@@ -20,7 +20,7 @@ class Column extends Component {
             return <div className={myObject[key].class} data-attribute={myObject[key].data}>{myObject[key].title}</div>;
         });
         return(
-        <div className="footerColumn">
+        <div className="footerColumn" data-count={this.props.count}>
             {columnList}
         </div>
         );

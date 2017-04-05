@@ -18,7 +18,7 @@ class FooterSection extends Component{
             const MapArray = [] || null;
             return (
                 <div className="footer">
-                    <Column />
+                    <Column count="4" />
                 </div>
             );
         }
