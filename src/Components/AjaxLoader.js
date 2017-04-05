@@ -5,6 +5,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 
 class AjaxLoader extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -15,6 +16,7 @@ class AjaxLoader extends Component {
     componentDidMount() {
         axios.get(`http://www.reddit.com/r/${this.props.subreddit}.json`)
             .then(res => {
+                window.dataDump = res.data;
                 const posts = res.data.data.children.map(obj => obj.data);
                 this.setState({ posts });
             });
