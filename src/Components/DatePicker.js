@@ -2,6 +2,7 @@
  * Created by DAVIM on 05/04/2017.
  */
 import React, {Component} from 'react';
+import './Stylesheets/DatePicker.css'
 
 class DatePicker extends Component {
     constructor(props) {
