@@ -1,28 +1,29 @@
 /**
  * Created by DAVIM on 05/04/2017.
  */
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Column extends Component {
-    render(){
+    render() {
         let myObject = [
             {
-                class:"a_class_name",
-                title:"a title name",
-                data:"something else"
+                class: "a_class_name",
+                title: "a title name",
+                data: "something else"
             },
-            {class:"another_class_name",
-                title:"a title name",
-                data:"something else"
+            {
+                class: "another_class_name",
+                title: "a title name",
+                data: "something else"
             }
-            ];
-        let columnList = Object.keys(myObject).map(function(key, index) {
+        ];
+        let columnList = Object.keys(myObject).map(function (key, index) {
             return <div className={myObject[key].class} data-attribute={myObject[key].data}>{myObject[key].title}</div>;
         });
-        return(
-        <div className="footerColumn" data-count={this.props.count}>
-            {columnList}
-        </div>
+        return (
+            <div className="footerColumn" data-count={this.props.count}>
+                {columnList}
+            </div>
         );
     }
 }

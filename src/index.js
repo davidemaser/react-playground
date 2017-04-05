@@ -12,5 +12,5 @@ ReactDOM.render(
         <Prefooter />
         <Footer />
     </div>,
-  document.getElementById('root')
+    document.getElementById('root')
 );
