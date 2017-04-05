@@ -2,6 +2,7 @@
  * Created by DAVIM on 05/04/2017.
  */
 import React, {Component} from 'react';
+import DatePicker from "./DatePicker";
 
 class Column extends Component {
     render() {
@@ -22,7 +23,7 @@ class Column extends Component {
         });
         return (
             <div className="footerColumn" data-count={this.props.count}>
-                {columnList}
+                {columnList}<DatePicker/>
             </div>
         );
     }
