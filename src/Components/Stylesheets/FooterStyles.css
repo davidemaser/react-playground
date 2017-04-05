@@ -1,5 +1,7 @@
 .footer{
     width:100%;
-    display:inline-block;
+    display:block;
     height:auto;
+    position: absolute;
+    bottom:0;
 }
