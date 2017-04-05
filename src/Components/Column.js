@@ -18,7 +18,7 @@ class Column extends Component {
             }
         ];
         let columnList = Object.keys(myObject).map(function (key, index) {
-            return <div className={myObject[key].class} data-attribute={myObject[key].data}>{myObject[key].title}</div>;
+            return <div key={index} className={myObject[key].class} data-attribute={myObject[key].data}>{myObject[key].title}</div>;
         });
         return (
             <div className="footerColumn" data-count={this.props.count}>

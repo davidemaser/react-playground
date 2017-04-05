@@ -10,6 +10,7 @@
     "axios": "^0.16.0",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
+    "react-ajax": "^0.1.1",
     "react-scripts": "0.9.5"
   },
   "scripts": {
