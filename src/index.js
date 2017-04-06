@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import DateTime from "./Widgets/DateTime";
 
-import './index.css';
+import './Stylesheets/index.css';
 
 
 ReactDOM.render(
