@@ -10,6 +10,7 @@ class App extends Component {
     componentWillMount() {
         window.dataDump = {}
     }
+
     render() {
         return (
             <section className="App">
