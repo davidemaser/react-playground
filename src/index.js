@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Body from './Components/Body';
-import Footer from './Components/Footer';
-import Prefooter from './Components/PreFooter';
-import DateTime from "./Components/DateTime";
+import DateTime from "./Widgets/DateTime";
 
 import './index.css';
+
 
 ReactDOM.render(
     <div>
         <App />
-        <Body />
-        <Prefooter />
-        <Footer />
+
         <DateTime view="Time"/>
     </div>,
     document.getElementById('root')
