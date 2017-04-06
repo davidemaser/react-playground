@@ -17,9 +17,9 @@ class FooterSection extends Component {
 
     render() {
         return (
-            <div className="footer">
+            <section className="footer">
                 <Column count="4"/>
-            </div>
+            </section>
         );
     }
 }

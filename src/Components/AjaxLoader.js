@@ -14,17 +14,29 @@ class AjaxLoader extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://www.reddit.com/r/${this.props.subreddit}.json`)
-            .then(res => {
+        axios({
+            method:'get',
+            url:`http://www.reddit.com/r/${this.props.datasource}.json`,
+            params: {},
+            responseType:'json'
+        }).then(res => {
                 window.dataDump = res.data;
                 const posts = res.data.data.children.map(obj => obj.data);
                 this.setState({ posts });
             });
+
+        axios.interceptors.response.use(response =>{
+            //if(this.props.log === true){
+                console.log(response.data)
+            //}
+        }, error => {
+            return Promise.reject(error);
+        });
     }
     render() {
         return (
             <div>
-                <h1>{`/r/${this.props.subreddit}`}</h1>
+                <h1>{`/r/${this.props.datasource}`}</h1>
                 <ul>
                     {this.state.posts.map(post =>
                         <li key={post.id}>{post.title}</li>
