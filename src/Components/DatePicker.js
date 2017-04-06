@@ -18,20 +18,31 @@ class DatePicker extends Component {
             rows : 4,
             readable : this.state.date.toDateString()
         };
-        let i = 1;
-        let cString = '';
-        for(;i<=monthLayout.columns;i++){
-            cString += '<td>'+i+'</td>';
+        function buildRows(){
+            let rowString = '';
+            let r = 1;
+            for(;r<=monthLayout.rows;r++){
+                rowString += '<tr>'+buildColumns(r)+'</tr>';
+            }
+            return rowString;
+        }
+        function buildColumns(){
+            let columnString = '';
+            let c = 1;
+            for(;c<=monthLayout.columns;c++){
+                columnString += '<td>'+c+'</td>';
+            }
+            return columnString;
         }
         return (
-            cString
+            '<div class="date-selector">'+buildRows()+'</div>'
         )
     }
 
     render() {
         return (
             <div className="datePicker">
-                <input type="text" data-handles-click="wait" defaultValue={this.buildCalendarLayout()} onClick={this.buildCalendarLayout()} />
+                <input type="text" data-handles-click="wait" defaultValue={this.buildCalendarLayout()} />
             </div>
         );
     }
