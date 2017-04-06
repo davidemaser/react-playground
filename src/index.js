@@ -8,8 +8,7 @@ import './index.css';
 
 ReactDOM.render(
     <div>
-        <App />
-
+        <App intro="Use a prop to pass the intro" initialView="default" />
         <DateTime view="Time"/>
     </div>,
     document.getElementById('root')
