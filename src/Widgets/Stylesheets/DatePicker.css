@@ -1,6 +1,28 @@
-.datepicker{
+.datePicker{
     width:100%;
-    display:block;
+    display: block;
     height:auto;
     position: relative;
+}
+.datePicker[data-view="false"] .calendar-wrapper{
+    display:none;
+}
+.datePicker[data-view="true"] .calendar-wrapper{
+    display:block;
+}
+.calendar-row {
+    display: block;
+    clear: both;
+}
+
+.calendar-col {
+    display: inline-block;
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+}
+
+.calendar-wrapper {
+    width: auto;
+    position: absolute;
 }
