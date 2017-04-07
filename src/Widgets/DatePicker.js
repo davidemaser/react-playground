@@ -9,7 +9,13 @@ class DatePicker extends Component {
         super(props);
         this.state = {
             date: new Date(),
+            visible:false
         };
+        this.handleCalendarStateChange = this.toggleCalendarState.bind(this);
+    }
+
+    toggleCalendarState(){
+        this.state.visible === true ? this.setState({visible:false}) : this.setState({visible:true});
     }
 
     buildCalendarLayout(){
@@ -24,7 +30,9 @@ class DatePicker extends Component {
             for(;r<=monthLayout.rows;r++){
                 rowString += '<tr>'+buildColumns(r)+'</tr>';
             }
-            return rowString;
+            return (
+                rowString
+            )
         }
         function buildColumns(){
             let columnString = '';
@@ -32,17 +40,22 @@ class DatePicker extends Component {
             for(;c<=monthLayout.columns;c++){
                 columnString += '<td>'+c+'</td>';
             }
-            return columnString;
+            return (
+                columnString
+            )
         }
         return (
-            '<div class="date-selector">'+buildRows()+'</div>'
+            <div className="date-selector">
+                {buildRows()}
+            </div>
         )
     }
 
     render() {
         return (
             <div className="datePicker">
-                <input type="text" data-handles-click="wait" defaultValue={this.buildCalendarLayout()} />
+                <input className={this.state.visible} type="text" data-handles-click="wait" onClick={this.handleCalendarStateChange} />
+                <div className={this.state.visible} >{this.buildCalendarLayout()}</div>
             </div>
         );
     }
