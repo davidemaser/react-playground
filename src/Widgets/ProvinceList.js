@@ -21,9 +21,10 @@ class Provinces extends Component {
         let provinces = JsonList.list;
         let countries = JsonList.options;
         let provinceList = [];
-        let countryFilter = this.state.country || 'all';
+        let countryDefault = this.state.country || 'all';
+        let countryFilter = ['US','CA','AU'];
         for(let j in provinces){
-            if(provinces[j].country === countryFilter || countryFilter === 'all'){
+            if(provinces[j].country === countryDefault || countryDefault === 'all'){
                 provinceList.push(<option key={j} value={provinces[j].short}>{provinces[j].name}</option>);
             }
         }
