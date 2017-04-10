@@ -9,16 +9,26 @@ import Form from "./Components/Form";
 import Provinces from "./Widgets/ProvinceList";
 
 class App extends Component {
+    constructor(props){
+        super(props);
+        this.state= {
+            appView: 'gutter-hidden'
+        };
+    }
+
     componentWillMount() {
-        window.dataDump = {}
+        window.dataDump= {}
+    }
+
+    changeModalState() {
+        this.state.appView === 'gutter-hidden' ? this.setState({appView: 'gutter-visible'}): this.setState({appView: 'gutter-hidden'})
     }
 
     render() {
+        let appClass = 'App '+this.state.appView;
         return (
-            <section className="App">
-                <section className="app-gutter">
-                    <Gutter view="closed"/>
-                </section>
+            <section className={appClass}>
+                    <Gutter onStateChange={this.changeModalState.bind(this)}/>
                 <section className="app-body">
                     <div className="App-header">
                         <img src={logo} className="App-logo" alt="logo"/>

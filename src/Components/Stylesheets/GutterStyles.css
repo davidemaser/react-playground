@@ -1,21 +1,39 @@
-.nav-gutter{
+.App .nav-gutter{
+    transition: all 0.3s;
+    z-index:999;
+}
+.App.gutter-visible .nav-gutter{
     display: block;
     position: absolute;
     top:0;
-    height:100%;
-    width:300px;
-}
-.nav-gutter.open{
     left:0;
+    height:100%;
+    width:30%;
 }
-.nav-gutter.closed{
-    left:-300px;
+
+.App.gutter-hidden .nav-gutter{
+    display: block;
+    position: absolute;
+    top:0;
+    left:-30%;
+    height:100%;
+    width:30%;
 }
-.nav-gutter.open .interaction {
+
+.App.gutter-visible .nav-gutter .interaction {
     position: absolute;
     right: 0;
 }
-.nav-gutter.closed .interaction {
+.App.gutter-hidden .nav-gutter .interaction {
     position: absolute;
     right: -60px;
+}
+
+.App.gutter-hidden .app-body {
+    width: 100%;
+    left: 0;
+}
+.App.gutter-visible .app-body {
+    width: 70%;
+    left: 30%;
 }
