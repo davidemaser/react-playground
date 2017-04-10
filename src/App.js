@@ -6,6 +6,7 @@ import Gutter from "./Components/Gutter";
 import logo from './logo.svg';
 import './App.css';
 import Form from "./Components/Form";
+import Provinces from "./Widgets/ProvinceList";
 
 class App extends Component {
     componentWillMount() {
@@ -28,6 +29,7 @@ class App extends Component {
                     </p>
                     <Body />
                     <Form view="default"/>
+                    <Provinces country="CA"/>
                     <Prefooter />
                     <Footer />
                 </section>

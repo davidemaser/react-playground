@@ -9,7 +9,7 @@ class DatePickerRows extends Component{
         let rows = 4;
         let rowArray = [];
         for(let count=1;count<=rows;count++){
-            rowArray.push(<DatePickerCols offset={count} />);
+            rowArray.push(<DatePickerCols key={count} offset={count} />);
         }
         return(
             <div className="calendar-wrapper" key={this.props.offset}>

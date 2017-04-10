@@ -13,7 +13,6 @@ class DatePickerCols extends Component{
         let cols = 7*intOffset;
         let colArray = [];
         let counter = [1,8,17,25];
-        console.log(counter[intOffset-1]);
         for(let count=counter[intOffset-1];count<=cols;count++){
             colArray.push(<div className="calendar-col" key={count}>{count}</div>);
         }

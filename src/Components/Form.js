@@ -30,7 +30,7 @@ class Form extends Component {
                 case 'select':
                     let optionArray = [];
                     for(let o in formObject[f].options){
-                        optionArray.push(<option value={formObject[f].options[o].value}>{formObject[f].options[o].label}</option>)
+                        optionArray.push(<option key={o} value={formObject[f].options[o].value}>{formObject[f].options[o].label}</option>)
                     }
                     formArray.push(<select key={f} id={formObject[f].ID} name={formObject[f].name}>{optionArray}</select>);
                     break;
