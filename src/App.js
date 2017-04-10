@@ -5,6 +5,7 @@ import Prefooter from './Components/PreFooter';
 import Gutter from "./Components/Gutter";
 import logo from './logo.svg';
 import './App.css';
+import Form from "./Components/Form";
 
 class App extends Component {
     componentWillMount() {
@@ -14,17 +15,22 @@ class App extends Component {
     render() {
         return (
             <section className="App">
-                <Gutter/>
-                <div className="App-header">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <h2>{this.props.intro}</h2>
-                </div>
-                <p className="App-intro">
-                    Call the following view into scope <strong>{this.props.initialView}</strong>
-                </p>
-                <Body />
-                <Prefooter />
-                <Footer />
+                <section className="app-gutter">
+                    <Gutter/>
+                </section>
+                <section className="app-body">
+                    <div className="App-header">
+                        <img src={logo} className="App-logo" alt="logo"/>
+                        <h2>{this.props.intro}</h2>
+                    </div>
+                    <p className="App-intro">
+                        Call the following view into scope <strong>{this.props.initialView}</strong>
+                    </p>
+                    <Body />
+                    <Form/>
+                    <Prefooter />
+                    <Footer />
+                </section>
             </section>
         );
     }

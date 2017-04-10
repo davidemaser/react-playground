@@ -1,8 +1,21 @@
 .nav-gutter{
     display: block;
     position: absolute;
-    left:0;
     top:0;
     height:100%;
-    width:25%;
+    width:300px;
+}
+.nav-gutter.open{
+    left:0;
+}
+.nav-gutter.closed{
+    left:-300px;
+}
+.nav-gutter.open .interaction {
+    position: absolute;
+    right: 0;
+}
+.nav-gutter.closed .interaction {
+    position: absolute;
+    right: -60px;
 }
