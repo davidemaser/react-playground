@@ -21,20 +21,19 @@ class Provinces extends Component {
         let provinces = JsonList.list;
         let countries = JsonList.options;
         let provinceList = [];
-        let countryList = [];
         let countryFilter = this.state.country || 'all';
         for(let j in provinces){
             if(provinces[j].country === countryFilter || countryFilter === 'all'){
                 provinceList.push(<option key={j} value={provinces[j].short}>{provinces[j].name}</option>);
             }
         }
-        for(let c in countries){
-            countryList.push(<option key={c} value={countries[c].value}>{countries[c].name}</option>);
-        }
+
         return(
             <div>
                 <select name="country" onChange={this.handleCountryChange}>
-                    {countryList}
+                        {countries.map((m, i) =>
+                            <option key={i} value={m.value}>{m.name}</option>
+                        )}
                 </select>
             <select>
                 {provinceList}

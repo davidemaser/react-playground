@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="Extend Country-province list from JSON">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/ProvinceList.js" />
+    <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Form.js" afterPath="$PROJECT_DIR$/src/Components/Form.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Data/Provinces/provinces.json" afterPath="$PROJECT_DIR$/src/Data/Provinces/provinces.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" afterPath="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/_DatePickerRows.js" afterPath="$PROJECT_DIR$/src/Widgets/_DatePickerRows.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/ProvinceList.js" afterPath="$PROJECT_DIR$/src/Widgets/ProvinceList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +69,8 @@
       <file leaf-file-name="provinces.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Data/Provinces/provinces.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="173" column="37" lean-forward="true" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
+            <state relative-caret-position="84">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -107,8 +103,8 @@
       <file leaf-file-name="ProvinceList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Widgets/ProvinceList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+            <state relative-caret-position="315">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#43#82#0" expanded="true" />
               </folding>
@@ -218,9 +214,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
+    <option name="x" value="68" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1861" />
     <option name="height" value="1098" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -536,7 +532,7 @@
       <updated>1491399529280</updated>
       <workItem from="1491399530657" duration="33868000" />
       <workItem from="1491579454549" duration="11211000" />
-      <workItem from="1491831021012" duration="6794000" />
+      <workItem from="1491831021012" duration="11082000" />
     </task>
     <task id="LOCAL-00001" summary="Push build">
       <created>1491403587169</created>
@@ -748,11 +744,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491837491820</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Extend provinces">
+      <created>1491840644861</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1491840644861</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51873000" />
+    <option name="totallyTimeSpent" value="56161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,10 +767,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="68" y="-9" width="1861" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17874141" sideWeight="0.4829932" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18632856" sideWeight="0.4829932" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -813,7 +816,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Update SCTO" />
     <MESSAGE value="Add prefooter" />
     <MESSAGE value="Build" />
     <MESSAGE value="Add ajaxRequest class" />
@@ -838,7 +840,8 @@
     <MESSAGE value="Update gutter order and add form component" />
     <MESSAGE value="Add default view props for form" />
     <MESSAGE value="Add provinces JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add provinces JSON" />
+    <MESSAGE value="Extend provinces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extend provinces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1240,16 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/ProvinceList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding>
-            <element signature="e#43#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1260,10 +1253,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widgets/ProvinceList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#43#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/Provinces/provinces.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="173" column="37" lean-forward="true" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
+        <state relative-caret-position="84">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
