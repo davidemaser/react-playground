@@ -7,7 +7,7 @@ import AjaxLoader from './AjaxLoader';
 class Body extends Component {
     render(){
         return (
-            <AjaxLoader datasource="http://www.reddit.com/r/reactjs" log="true"/>
+            <AjaxLoader datasource="http://www.reddit.com/r/reactjs" log="false"/>
         )
     }
 }

@@ -6,11 +6,13 @@
     background: url(../../menu-vis.svg);
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .App.gutter-visible .burgermenu {
     background: url(../../menu.svg);
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .App.gutter-visible .nav-gutter{
     display: block;

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/menu-vis.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/menu.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/AjaxLoader.js" afterPath="$PROJECT_DIR$/src/Components/AjaxLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Body.js" afterPath="$PROJECT_DIR$/src/Components/Body.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Gutter.js" afterPath="$PROJECT_DIR$/src/Components/Gutter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css" afterPath="$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css" />
     </list>
@@ -48,18 +48,8 @@
       <file leaf-file-name="Body.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Body.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gutter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="19" column="89" lean-forward="true" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+            <state relative-caret-position="147">
+              <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
               <folding>
                 <element signature="e#43#82#0" expanded="true" />
               </folding>
@@ -67,32 +57,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GutterStyles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gutter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#43#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GutterStyles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="42">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.svg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/menu.svg">
+      <file leaf-file-name="AjaxLoader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/AjaxLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu-vis.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/menu-vis.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-              <folding />
+            <state relative-caret-position="366">
+              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+              <folding>
+                <element signature="e#43#82#0" expanded="true" />
+                <marker date="1491858812137" expanded="true" signature="795:817" ph="..." />
+                <marker date="1491858812137" expanded="true" signature="870:1025" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,18 +195,18 @@
         <option value="$PROJECT_DIR$/src/Widgets/DatePicker.js" />
         <option value="$PROJECT_DIR$/src/Widgets/Stylesheets/DatePicker.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Components/AjaxLoader.js" />
         <option value="$PROJECT_DIR$/src/Widgets/_DatePickerRows.js" />
         <option value="$PROJECT_DIR$/src/Data/Provinces/provinces.json" />
         <option value="$PROJECT_DIR$/src/Widgets/ProvinceList.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Stylesheets/index.css" />
         <option value="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" />
         <option value="$PROJECT_DIR$/src/Components/Form.js" />
-        <option value="$PROJECT_DIR$/src/Components/Gutter.js" />
         <option value="$PROJECT_DIR$/src/menu-vis.svg" />
+        <option value="$PROJECT_DIR$/src/Components/AjaxLoader.js" />
+        <option value="$PROJECT_DIR$/src/Components/Body.js" />
+        <option value="$PROJECT_DIR$/src/Components/Gutter.js" />
         <option value="$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css" />
       </list>
     </option>
@@ -571,7 +567,7 @@
       <workItem from="1491399530657" duration="33868000" />
       <workItem from="1491579454549" duration="11211000" />
       <workItem from="1491831021012" duration="13359000" />
-      <workItem from="1491851392173" duration="6332000" />
+      <workItem from="1491851392173" duration="6623000" />
     </task>
     <task id="LOCAL-00001" summary="Push build">
       <created>1491403587169</created>
@@ -825,11 +821,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491857809074</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Burger menu svg clip">
+      <created>1491858617352</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1491858617352</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64770000" />
+    <option name="totallyTimeSpent" value="65061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -890,7 +893,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Add datepicker object" />
     <MESSAGE value="Include missing CSS" />
     <MESSAGE value="Add DateTime component" />
     <MESSAGE value="Add cucumber and build" />
@@ -915,7 +917,8 @@
     <MESSAGE value="Minor ref" />
     <MESSAGE value="CSS animate gutter" />
     <MESSAGE value="Fixes and tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes and tweaks" />
+    <MESSAGE value="Burger menu svg clip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Burger menu svg clip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1002,7 +1005,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#43#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,8 +1034,8 @@
           <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding>
             <element signature="e#43#82#0" expanded="true" />
-            <marker date="1491837448521" expanded="true" signature="920:942" ph="..." />
-            <marker date="1491837448521" expanded="true" signature="995:1150" ph="..." />
+            <marker date="1491858812137" expanded="true" signature="795:817" ph="..." />
+            <marker date="1491858812137" expanded="true" signature="870:1025" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1174,18 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AjaxLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#43#82#0" expanded="true" />
-            <marker date="1491837448521" expanded="true" signature="920:942" ph="..." />
-            <marker date="1491837448521" expanded="true" signature="995:1150" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1241,24 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Widgets/_DatePickerCols.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1283,6 +1258,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu-vis.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1293,36 +1294,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Body.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="89" lean-forward="true" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+        <state relative-caret-position="147">
+          <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
           <folding>
             <element signature="e#43#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu-vis.svg">
+    <entry file="file://$PROJECT_DIR$/src/Components/AjaxLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="366">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#43#82#0" expanded="true" />
+            <marker date="1491858812137" expanded="true" signature="795:817" ph="..." />
+            <marker date="1491858812137" expanded="true" signature="870:1025" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#43#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="42">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>

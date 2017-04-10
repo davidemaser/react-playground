@@ -17,7 +17,7 @@ class Gutter extends Component {
         return (
             <nav className="nav-gutter">
                 <section className="interaction">
-                    <div className="burgermenu" onClick={this.props.onStateChange}></div>
+                    <div className="burgermenu" onClick={this.props.onStateChange}>&nbsp;</div>
                 </section>
             </nav>
         )

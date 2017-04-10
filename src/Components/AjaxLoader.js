@@ -21,17 +21,12 @@ class AjaxLoader extends Component {
             responseType:'json'
         }).then(res => {
                 window.dataDump = res.data;
+                if(this.props.log === 'true'){
+                    console.log(res.data)
+                }
                 const posts = res.data.data.children.map(obj => obj.data);
                 this.setState({ posts });
             });
-
-        axios.interceptors.response.use(response =>{
-            //if(this.props.log === true){
-                console.log(response.data)
-            //}
-        }, error => {
-            return Promise.reject(error);
-        });
     }
     render() {
         return (
