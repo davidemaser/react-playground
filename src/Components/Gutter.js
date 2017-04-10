@@ -9,7 +9,7 @@ class Gutter extends Component {
     constructor(props){
         super(props);
         this.state = {
-            view: 'closed',
+            view: this.props.view,
             position:'left'
         };
         this.handleNavStateChange = this.doNavLayout.bind(this);

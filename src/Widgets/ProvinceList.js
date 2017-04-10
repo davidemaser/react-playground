@@ -27,10 +27,9 @@ class Provinces extends Component {
                 provinceList.push(<option key={j} value={provinces[j].short}>{provinces[j].name}</option>);
             }
         }
-
         return(
             <div>
-                <select name="country" onChange={this.handleCountryChange}>
+                <select defaultValue={this.props.country} name="country" onChange={this.handleCountryChange}>
                         {countries.map((m, i) =>
                             <option key={i} value={m.value}>{m.name}</option>
                         )}

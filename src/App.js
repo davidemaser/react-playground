@@ -17,7 +17,7 @@ class App extends Component {
         return (
             <section className="App">
                 <section className="app-gutter">
-                    <Gutter/>
+                    <Gutter view="closed"/>
                 </section>
                 <section className="app-body">
                     <div className="App-header">
