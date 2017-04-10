@@ -16,7 +16,7 @@ class AjaxLoader extends Component {
     componentDidMount() {
         axios({
             method:'get',
-            url:`http://www.reddit.com/r/${this.props.datasource}.json`,
+            url:`${this.props.datasource}.json`,
             params: {},
             responseType:'json'
         }).then(res => {
@@ -36,7 +36,7 @@ class AjaxLoader extends Component {
     render() {
         return (
             <div>
-                <h1>{`/r/${this.props.datasource}`}</h1>
+                <h1>{`${this.props.datasource}`}</h1>
                 <ul>
                     {this.state.posts.map(post =>
                         <li key={post.id}>{post.title}</li>
