@@ -27,7 +27,7 @@ class App extends Component {
                         Call the following view into scope <strong>{this.props.initialView}</strong>
                     </p>
                     <Body />
-                    <Form/>
+                    <Form view="default"/>
                     <Prefooter />
                     <Footer />
                 </section>
