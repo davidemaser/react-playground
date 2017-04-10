@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/menu-vis.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/menu.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Form.js" afterPath="$PROJECT_DIR$/src/Components/Form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Gutter.js" afterPath="$PROJECT_DIR$/src/Components/Gutter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css" afterPath="$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Stylesheets/index.css" afterPath="$PROJECT_DIR$/src/Stylesheets/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" afterPath="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="147">
+              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="73" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -60,8 +58,8 @@
       <file leaf-file-name="Gutter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="284">
+              <caret line="19" column="89" lean-forward="true" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
               <folding>
                 <element signature="e#43#82#0" expanded="true" />
               </folding>
@@ -72,8 +70,28 @@
       <file leaf-file-name="GutterStyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.svg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/menu.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-147">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu-vis.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/menu-vis.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-147">
+              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -89,19 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatePicker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Widgets/DatePicker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#43#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_DatePickerCols.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Widgets/_DatePickerCols.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,21 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="provinces.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Data/Provinces/provinces.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2478">
-              <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Form.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="84">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -171,8 +166,8 @@
       <find>this.setSta</find>
       <find>this.setStat</find>
       <find>this.setState</find>
-      <find>appView</find>
       <find>parse</find>
+      <find>appView</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,13 +204,14 @@
         <option value="$PROJECT_DIR$/src/Data/Provinces/provinces.json" />
         <option value="$PROJECT_DIR$/src/Widgets/ProvinceList.js" />
         <option value="$PROJECT_DIR$/src/Components/Body.js" />
-        <option value="$PROJECT_DIR$/src/Components/Gutter.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Stylesheets/index.css" />
-        <option value="$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css" />
         <option value="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" />
         <option value="$PROJECT_DIR$/src/Components/Form.js" />
+        <option value="$PROJECT_DIR$/src/Components/Gutter.js" />
+        <option value="$PROJECT_DIR$/src/menu-vis.svg" />
+        <option value="$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css" />
       </list>
     </option>
   </component>
@@ -370,17 +366,18 @@
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Widgets" />
-      <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Components\Stylesheets" />
-      <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src" />
       <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Pages\Stylesheets" />
       <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Pages" />
       <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Widgets\Stylesheets" />
       <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Widgets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src" />
+      <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Widgets" />
+      <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Components\Stylesheets" />
+      <recent name="C:\Users\DAVIM\WebstormProjects\react-sandbox\src\Components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -574,7 +571,7 @@
       <workItem from="1491399530657" duration="33868000" />
       <workItem from="1491579454549" duration="11211000" />
       <workItem from="1491831021012" duration="13359000" />
-      <workItem from="1491851392173" duration="5528000" />
+      <workItem from="1491851392173" duration="6332000" />
     </task>
     <task id="LOCAL-00001" summary="Push build">
       <created>1491403587169</created>
@@ -821,11 +818,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491856770203</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Fixes and tweaks">
+      <created>1491857809074</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1491857809074</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63966000" />
+    <option name="totallyTimeSpent" value="64770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,7 +890,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Save ajax data to window object" />
     <MESSAGE value="Add datepicker object" />
     <MESSAGE value="Include missing CSS" />
     <MESSAGE value="Add DateTime component" />
@@ -911,7 +914,8 @@
     <MESSAGE value="Set defaults on select field" />
     <MESSAGE value="Minor ref" />
     <MESSAGE value="CSS animate gutter" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS animate gutter" />
+    <MESSAGE value="Fixes and tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes and tweaks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -920,27 +924,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#43#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/DatePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#43#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1240,16 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#43#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/PreFooter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1286,13 +1259,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/Widgets/_DatePickerCols.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,26 +1283,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="19" column="89" lean-forward="true" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+          <folding>
+            <element signature="e#43#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu-vis.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/_DatePickerCols.js">
+    <entry file="file://$PROJECT_DIR$/src/menu.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="-147">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>

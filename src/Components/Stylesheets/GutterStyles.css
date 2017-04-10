@@ -2,6 +2,16 @@
     transition: all 0.3s ease-in-out;
     z-index:999;
 }
+.App.gutter-hidden .burgermenu {
+    background: url(../../menu-vis.svg);
+    width: 20px;
+    height: 20px;
+}
+.App.gutter-visible .burgermenu {
+    background: url(../../menu.svg);
+    width: 20px;
+    height: 20px;
+}
 .App.gutter-visible .nav-gutter{
     display: block;
     position: fixed;
@@ -26,7 +36,7 @@
 }
 .App.gutter-hidden .nav-gutter .interaction {
     position: absolute;
-    right: -60px;
+    right: -20px;
 }
 
 .App.gutter-hidden .app-body {

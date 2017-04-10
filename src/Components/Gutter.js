@@ -3,6 +3,7 @@
  */
 import React, {Component} from 'react';
 import './Stylesheets/GutterStyles.css'
+import burger from '../menu.svg';
 
 class Gutter extends Component {
     constructor(props){
@@ -16,7 +17,7 @@ class Gutter extends Component {
         return (
             <nav className="nav-gutter">
                 <section className="interaction">
-                    <div className="burgermenu" onClick={this.props.onStateChange}>click {this.state.position}</div>
+                    <div className="burgermenu" onClick={this.props.onStateChange}></div>
                 </section>
             </nav>
         )
