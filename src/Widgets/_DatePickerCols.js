@@ -9,7 +9,7 @@ class DatePickerCols extends Component{
          * @todo need to wrap my head around the math to get the offset working properly
          * @type {number}
          */
-        let intOffset = parseInt(this.props.offset);
+        let intOffset = parseInt(this.props.offset,5);
         let cols = 7*intOffset;
         let colArray = [];
         let counter = [1,8,17,25];

@@ -1,10 +1,10 @@
 .App .nav-gutter{
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
     z-index:999;
 }
 .App.gutter-visible .nav-gutter{
     display: block;
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     height:100%;
@@ -36,4 +36,5 @@
 .App.gutter-visible .app-body {
     width: 70%;
     left: 30%;
+    box-shadow: 60px 0 80px 40px #000;
 }

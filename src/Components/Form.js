@@ -34,7 +34,7 @@ class Form extends Component {
                     }
                     formArray.push(<select key={f} id={formObject[f].ID} name={formObject[f].name}>{optionArray}</select>);
                     break;
-                case 'default':
+                default:
                     return false;
             }
         }

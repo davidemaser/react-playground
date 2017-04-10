@@ -7,6 +7,7 @@ import logo from './logo.svg';
 import './App.css';
 import Form from "./Components/Form";
 import Provinces from "./Widgets/ProvinceList";
+import DateTime from "./Widgets/DateTime";
 
 class App extends Component {
     constructor(props){
@@ -42,6 +43,7 @@ class App extends Component {
                     <Provinces country="CA"/>
                     <Prefooter />
                     <Footer />
+                    <DateTime view="Time"/>
                 </section>
             </section>
         );
