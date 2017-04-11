@@ -32,11 +32,11 @@ class App extends Component {
             <section className={appClass}>
                     <Gutter onStateChange={this.changeModalState.bind(this)}/>
                 <section className="app-body">
-                    <div className="App-header">
-                        <img src={logo} className="App-logo" alt="logo"/>
+                    <div className="app-header">
+                        <img src={logo} className="app-logo" alt="logo"/>
                         <h2>{this.props.intro}</h2>
                     </div>
-                    <p className="App-intro">
+                    <p className="app-intro">
                         Call the following view into scope <strong>{this.props.initialView}</strong>
                     </p>
                     <Body />
