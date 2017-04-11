@@ -4,7 +4,7 @@
   },
   "instructions":{
     "general":{
-      "wrap":false,
+      "wrap":true,
       "action":"this/would/be/the.action",
       "method":"GET"
     }
