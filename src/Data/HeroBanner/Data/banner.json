@@ -1,0 +1,83 @@
+{
+  "hero": [
+    {
+      "heroId": "hero-elem0",
+      "active": true,
+      "sticky": false,
+      "showCountdown": true,
+      "popUpLink": false,
+      "date": {
+        "start": "",
+        "end": "",
+        "delay": 0
+      },
+      "title": {
+        "en": "",
+        "fr": "",
+        "color": "#fff",
+        "showTitle": true
+      },
+      "text": {
+        "en": "",
+        "fr": "",
+        "showSubTitle": true
+      },
+      "conditions": {
+        "en": "",
+        "fr": ""
+      },
+      "promote": false,
+      "button": {
+        "label": {
+          "en": "",
+          "fr": ""
+        },
+        "url": "",
+        "popUpLinkID": "null"
+      },
+      "image": {
+        "url": "",
+        "altUrl": ""
+      }
+    },{
+      "heroId": "hero-elem1",
+      "active": true,
+      "sticky": false,
+      "showCountdown": true,
+      "popUpLink": false,
+      "date": {
+        "start": "",
+        "end": "",
+        "delay": 0
+      },
+      "title": {
+        "en": "",
+        "fr": "",
+        "color": "#fff",
+        "showTitle": true
+      },
+      "text": {
+        "en": "",
+        "fr": "",
+        "showSubTitle": true
+      },
+      "conditions": {
+        "en": "",
+        "fr": ""
+      },
+      "promote": false,
+      "button": {
+        "label": {
+          "en": "",
+          "fr": ""
+        },
+        "url": "",
+        "popUpLinkID": "null"
+      },
+      "image": {
+        "url": "",
+        "altUrl": ""
+      }
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import Form from "./Components/Form";
 import Provinces from "./Widgets/ProvinceList";
 import DateTime from "./Widgets/DateTime";
 import UserManager from "./Components/UserEntry";
+import HeroBanner from "./Widgets/HeroBanner";
 
 class App extends Component {
     constructor(props){
@@ -40,6 +41,7 @@ class App extends Component {
                         Call the following view into scope <strong>{this.props.initialView}</strong>
                     </p>
                     <Body />
+                    <HeroBanner/>
                     <Form view="default"/>
                     <Provinces country="CA"/>
                     <Prefooter />

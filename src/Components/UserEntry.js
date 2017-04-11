@@ -15,7 +15,7 @@ class UserManager extends Component{
     buildFormFields() {
         let formArray = [];
         let formFields = Json[this.state.type];
-        let layoutFormat = Json.layout[this.state.type];
+        //let layoutFormat = Json.layout[this.state.type];
         for(let f in formFields){
             let defText = formFields[f].default === 'label' ? formFields[f].label : formFields[f].default;
             let classString = formFields[f].class !== null ? formFields[f].class : '';
@@ -59,6 +59,9 @@ class UserManager extends Component{
                     break;
                 case 'button':
                     formArray.push(<button className={formFields[f].class} id={formFields[f].id}>{formFields[f].label}</button>);
+                    break;
+                default:
+
                     break;
             }
         }
