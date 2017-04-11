@@ -7,6 +7,11 @@
       "wrap":true,
       "action":"this/would/be/the.action",
       "method":"GET"
+    },
+    "login":{
+      "wrap":true,
+      "action":"path/to/login.form",
+      "method":"POST"
     }
   },
   "general":[
@@ -89,6 +94,36 @@
       "tag":"button",
       "id":"click_this",
       "label":"Click Me",
+      "class":null
+    }
+  ],
+  "login":[
+    {
+      "tag":"input",
+      "type":"text",
+      "length": 20,
+      "accepts":"text",
+      "label":"User Name",
+      "id":"user_name",
+      "class": null,
+      "required": true,
+      "default":"label"
+    },
+    {
+      "tag":"input",
+      "type":"password",
+      "length": 20,
+      "accepts":"password",
+      "label":"Password",
+      "id":"user_pass",
+      "class": null,
+      "required": true,
+      "default":""
+    },
+    {
+      "tag":"button",
+      "id":"click_this",
+      "label":"Login",
       "class":null
     }
   ]

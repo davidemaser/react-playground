@@ -44,7 +44,7 @@ class App extends Component {
                     <Provinces country="CA"/>
                     <Prefooter />
                     <Footer />
-                    <UserManager form="default"/>
+                    <UserManager form="login"/>
                     <DateTime view="Time"/>
                 </section>
             </section>

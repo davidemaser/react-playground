@@ -8,7 +8,7 @@ class UserManager extends Component{
     constructor(props){
         super(props);
         this.state = {
-            type:'general'
+            type:this.props.form //get the form state from the passed props
         }
     }
 
