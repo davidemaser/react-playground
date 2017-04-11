@@ -3,7 +3,6 @@
  */
 import React, {Component} from 'react';
 import './Stylesheets/GutterStyles.css'
-import burger from '../menu.svg';
 
 class Gutter extends Component {
     constructor(props){
