@@ -1,0 +1,95 @@
+{
+  "layout":{
+    "general":"block"
+  },
+  "instructions":{
+    "general":{
+      "wrap":false,
+      "action":"this/would/be/the.action",
+      "method":"GET"
+    }
+  },
+  "general":[
+    {
+      "tag":"input",
+      "type":"text",
+      "length": 30,
+      "accepts":"text",
+      "label":"First name",
+      "id":"first_name",
+      "class": null,
+      "required": true,
+      "default":"First name"
+    },
+    {
+      "tag":"input",
+      "type":"text",
+      "length": 30,
+      "accepts":"text",
+      "label":"Last name",
+      "id":"last_name",
+      "class": null,
+      "required": true,
+      "default":"Last name"
+    },
+    {
+      "tag":"textarea",
+      "length": 30,
+      "rows":10,
+      "label":"Comments",
+      "id":"user_comments",
+      "class": null,
+      "required": true,
+      "default":"label"
+    },
+    {
+      "tag":"select",
+      "label":"Select",
+      "id":"user_selection",
+      "class": null,
+      "required": true,
+      "list":[
+        {"value":"val1","text":"text1"},
+        {"value":"val2","text":"text2"},
+        {"value":"val3","text":"text3"}
+      ],
+      "default":"val3"
+    },
+    {
+      "tag":"checkbox",
+      "type":"checkbox",
+      "label":"check",
+      "id":"check_this",
+      "class":null,
+      "checked":true
+    },
+    {
+      "tag":"checkbox_group",
+      "title":"Check This",
+      "id":"check_this",
+      "class":null,
+      "name":"thing",
+      "group":[
+        {"value":"him","label":"adjective","id":"mamoo","class":null},
+        {"value":"them","label":"adverb","id":"mapoo","class":null,"checked":true}
+      ]
+    },
+    {
+      "tag":"radio_group",
+      "id":"check_this",
+      "title":"Radio This",
+      "name":"bANFGGN",
+      "class":null,
+      "group":[
+        {"label":"adjective","id":"mamoo","checked":true},
+        {"label":"adverb","id":"mapoo","checked":false}
+      ]
+    },
+    {
+      "tag":"button",
+      "id":"click_this",
+      "label":"Click Me",
+      "class":null
+    }
+  ]
+}

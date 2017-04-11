@@ -8,6 +8,7 @@ import './App.css';
 import Form from "./Components/Form";
 import Provinces from "./Widgets/ProvinceList";
 import DateTime from "./Widgets/DateTime";
+import UserManager from "./Components/UserEntry";
 
 class App extends Component {
     constructor(props){
@@ -43,6 +44,7 @@ class App extends Component {
                     <Provinces country="CA"/>
                     <Prefooter />
                     <Footer />
+                    <UserManager form="default"/>
                     <DateTime view="Time"/>
                 </section>
             </section>
