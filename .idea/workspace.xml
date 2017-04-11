@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Data/HeroBanner/Data/banner.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/HeroBanner.js" />
+    <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="Extend Hero Banner Object">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/UserEntry.js" afterPath="$PROJECT_DIR$/src/Components/UserEntry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/HeroBanner.js" afterPath="$PROJECT_DIR$/src/Widgets/HeroBanner.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UserEntry.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserEntry.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/UserEntry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="588">
+              <caret line="54" column="45" lean-forward="true" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
               <folding>
                 <element signature="e#43#82#0" expanded="true" />
               </folding>
@@ -39,8 +38,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="590">
+              <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -49,8 +48,8 @@
       <file leaf-file-name="default.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data/Forms/default.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1525">
-              <caret line="119" column="23" lean-forward="true" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -94,14 +93,14 @@
       <file leaf-file-name="HeroBanner.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Widgets/HeroBanner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state relative-caret-position="525">
+              <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="banner.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data/HeroBanner/Data/banner.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
@@ -125,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>console</find>
       <find>console.log</find>
       <find>se</find>
       <find>set</find>
@@ -155,10 +153,12 @@
       <find>&quot;&quot;</find>
       <find>App-header</find>
       <find>layoutFormat</find>
+      <find>key={c}</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;tag&quot;</replace>
       <replace>&quot;</replace>
+      <replace>key={keyCounter+c}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -204,10 +204,10 @@
         <option value="$PROJECT_DIR$/src/Components/Gutter.js" />
         <option value="$PROJECT_DIR$/src/Data/Forms/default.json" />
         <option value="$PROJECT_DIR$/src/Widgets/HeroBanner/Data/banner.json" />
+        <option value="$PROJECT_DIR$/src/Data/HeroBanner/Data/banner.json" />
+        <option value="$PROJECT_DIR$/src/Widgets/HeroBanner.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/UserEntry.js" />
-        <option value="$PROJECT_DIR$/src/Widgets/HeroBanner.js" />
-        <option value="$PROJECT_DIR$/src/Data/HeroBanner/Data/banner.json" />
       </list>
     </option>
   </component>
@@ -573,7 +573,7 @@
       <workItem from="1491831021012" duration="13359000" />
       <workItem from="1491851392173" duration="10519000" />
       <workItem from="1491926441285" duration="1134000" />
-      <workItem from="1491932338823" duration="13822000" />
+      <workItem from="1491932338823" duration="14272000" />
     </task>
     <task id="LOCAL-00001" summary="Push build">
       <created>1491403587169</created>
@@ -897,11 +897,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491942495911</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Extend Hero Banner Object">
+      <created>1491946918977</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1491946918977</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83913000" />
+    <option name="totallyTimeSpent" value="84363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,7 +969,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Rely more on props" />
     <MESSAGE value="Change stylesheet scope" />
     <MESSAGE value="Trying to add more rows" />
     <MESSAGE value="Clean and refactor the calendar object" />
@@ -987,7 +993,8 @@
     <MESSAGE value="Woops" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Add login form config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add login form config" />
+    <MESSAGE value="Extend Hero Banner Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extend Hero Banner Object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1319,18 +1326,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/Forms/default.json">
+    <entry file="file://$PROJECT_DIR$/src/Data/HeroBanner/Data/banner.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="119" column="23" lean-forward="true" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
+        <state relative-caret-position="244">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/Widgets/HeroBanner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="525">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1356,37 +1363,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Forms/default.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="590">
+          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/UserEntry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="54" column="45" lean-forward="true" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
           <folding>
             <element signature="e#43#82#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/HeroBanner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/HeroBanner/Data/banner.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>

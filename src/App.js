@@ -47,6 +47,7 @@ class App extends Component {
                     <Prefooter />
                     <Footer />
                     <UserManager form="login"/>
+                    <UserManager form="general"/>
                     <DateTime view="Time"/>
                 </section>
             </section>

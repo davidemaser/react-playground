@@ -31,7 +31,7 @@ class HeroBanner extends Component{
         const data = Json.hero;
         let dataDump = [];
         for(let d in data){
-            dataDump.push(<div>{data[d].heroId}</div>)
+            dataDump.push(<div key={d}>{data[d].heroId}</div>)
         }
         return (
             <div>
