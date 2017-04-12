@@ -31,7 +31,7 @@ class HeroBanner extends Component {
      });
      }
      */
-    buildLayout() {
+    buildHero() {
         const data = Json.hero;
         let dataDump = [];
         for (let d in data) {
@@ -73,7 +73,7 @@ class HeroBanner extends Component {
     }
 
     render() {
-        return (<section className="hero-wrapper" onClick={this.triggerViewState}>{this.buildLayout()}</section>)
+        return (<section className="hero-wrapper" onClick={this.triggerViewState}>{this.buildHero()}</section>)
     }
 }
 
