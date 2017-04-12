@@ -1,20 +1,20 @@
-.App .nav-gutter{
+.app .nav-gutter{
     transition: all 0.3s ease-in-out;
     z-index:999;
 }
-.App.gutter-hidden .burgermenu {
+.app.gutter-hidden .burgermenu {
     background: url(../../menu-vis.svg);
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
-.App.gutter-visible .burgermenu {
+.app.gutter-visible .burgermenu {
     background: url(../../menu.svg);
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
-.App.gutter-visible .nav-gutter{
+.app.gutter-visible .nav-gutter{
     display: block;
     position: fixed;
     top:0;
@@ -23,7 +23,7 @@
     width:30%;
 }
 
-.App.gutter-hidden .nav-gutter{
+.app.gutter-hidden .nav-gutter{
     display: block;
     position: absolute;
     top:0;
@@ -32,20 +32,20 @@
     width:30%;
 }
 
-.App.gutter-visible .nav-gutter .interaction {
+.app.gutter-visible .nav-gutter .interaction {
     position: absolute;
     right: 0;
 }
-.App.gutter-hidden .nav-gutter .interaction {
+.app.gutter-hidden .nav-gutter .interaction {
     position: absolute;
     right: -20px;
 }
 
-.App.gutter-hidden .app-body {
+.app.gutter-hidden .app-body {
     width: 100%;
     left: 0;
 }
-.App.gutter-visible .app-body {
+.app.gutter-visible .app-body {
     width: 70%;
     left: 30%;
     box-shadow: 60px 0 80px 40px #000;

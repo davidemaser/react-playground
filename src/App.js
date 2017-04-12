@@ -28,7 +28,7 @@ class App extends Component {
     }
 
     render() {
-        let appClass = 'App '+this.state.appView;
+        let appClass = 'app '+this.state.appView;
         return (
             <section className={appClass}>
                     <Gutter onStateChange={this.changeModalState.bind(this)}/>
