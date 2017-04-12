@@ -2,8 +2,7 @@
  * Created by David Maser on 11/04/2017.
  */
 import React, {Component} from 'react';
-//import axios from 'axios';
-import Json from '../Data/HeroBanner/Data/banner.json';
+import Json from '../Data/HeroBanner/banner.json';
 import './Stylesheets/HeroBanner.css';
 
 export default class HeroBanner extends Component {
@@ -11,28 +10,15 @@ export default class HeroBanner extends Component {
         super(props);
         this.state = {
             posts: [],
+            dataSource : this.props.json, //this can also be a static source by invoking the constant Json **see line 5
             language: this.props.language,
             currentSlide:0
         };
-
         this.triggerViewState = this.setViewState.bind(this);
     }
 
-    /*componentDidMount() {
-     axios({
-     method:'get',
-     url:'../Data/HeroBanner/Data/banner.json',
-     params: {},
-     responseType:'json'
-     }).then(res => {
-     console.log(res.data);
-     const posts = res.data.hero.map(obj => obj.data);
-     this.setState({ posts });
-     });
-     }
-     */
     buildHero() {
-        const data = Json.hero;
+        const data = this.state.dataSource;
         let dataDump = [];
         for (let d in data) {
             try {

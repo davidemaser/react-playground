@@ -11,6 +11,7 @@ import DateTime from "./Widgets/DateTime";
 import DynamicForm from "./Components/DynamicForm";
 import HeroBanner from "./Widgets/HeroBanner";
 import Modal from "./Widgets/Modal";
+import GetJSON from "./Components/GetJSON";
 
 export default class App extends Component {
     constructor(props){
@@ -43,7 +44,6 @@ export default class App extends Component {
                         Call the following view into scope <strong>{this.props.initialView}</strong>
                     </p>
                     <Body />
-                    <HeroBanner language="en"/>
                     <Form view="default"/>
                     <Provinces country="CA"/>
                     <Prefooter />
@@ -52,6 +52,7 @@ export default class App extends Component {
                     <DynamicForm form="login"/>
                     <DynamicForm form="general"/>
                     <DateTime view="Time"/>
+                    <GetJSON language="en" target="hero"/>
                 </section>
             </section>
         );

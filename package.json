@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-http-request": "^1.0.3"
   },
   "devDependencies": {
     "axios": "^0.16.0",
