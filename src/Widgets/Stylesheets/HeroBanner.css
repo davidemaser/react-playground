@@ -1,0 +1,11 @@
+.hero-banner .hero-layout {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.hero-banner .hero-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}

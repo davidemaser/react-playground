@@ -4,13 +4,15 @@
 import React, {Component} from 'react';
 //import axios from 'axios';
 import Json from '../Data/HeroBanner/Data/banner.json';
+import './Stylesheets/HeroBanner.css';
 
 class HeroBanner extends Component {
     constructor(props) {
         super(props);
         this.state = {
             posts: [],
-            language: this.props.language
+            language: this.props.language,
+            currentSlide:0
         };
 
         this.triggerViewState = this.setViewState.bind(this);
@@ -33,27 +35,31 @@ class HeroBanner extends Component {
         const data = Json.hero;
         let dataDump = [];
         for (let d in data) {
-            let unitParams = {
-                bgImage: {backgroundImage: 'url(' + data[d].image.url + ')'},
-                titleColor: {color: data[d].title.color},
-                titleText: data[d].title[this.state.language],
-                subTitleText: data[d].text[this.state.language],
-                buttonURL: data[d].button.url,
-                buttonLabel: data[d].button.label[this.state.language]
-            };
-            dataDump.push(<div data-instace={`hero` + d} title="" className="hero-layout" key={d}>
-                <div className="hero-background" style={unitParams.bgImage}>
-                    <div className="hero-container"><h1 className="hero-headline"
-                                                        style={unitParams.titleColor}
-                                                        dangerouslySetInnerHTML={{__html: unitParams.titleText}}>{null}</h1>
-                        <p
-                            className="hero-subtitle"
-                            dangerouslySetInnerHTML={{__html: unitParams.subTitleText}}>{null}</p><a
-                            href={unitParams.buttonURL}
-                            className="hero-action-button">{unitParams.buttonLabel}</a>
+            try {
+                let unitParams = {
+                    bgImage: {backgroundImage: 'url(' + data[d].image.url + ')'},
+                    titleColor: {color: data[d].title.color},
+                    titleText: data[d].title[this.state.language],
+                    subTitleText: data[d].text[this.state.language],
+                    buttonURL: data[d].button.url,
+                    buttonLabel: data[d].button.label[this.state.language]
+                };
+                dataDump.push(<div data-instace={`hero-elem` + d} title="" className="hero-layout" key={d}>
+                    <div className="hero-background" style={unitParams.bgImage}>
+                        <div className="hero-container"><h1 className="hero-headline"
+                                                            style={unitParams.titleColor}
+                                                            dangerouslySetInnerHTML={{__html: unitParams.titleText}}>{null}</h1>
+                            <p
+                                className="hero-subtitle"
+                                dangerouslySetInnerHTML={{__html: unitParams.subTitleText}}>{null}</p><a
+                                href={unitParams.buttonURL}
+                                className="hero-action-button">{unitParams.buttonLabel}</a>
+                        </div>
                     </div>
-                </div>
-            </div>)
+                </div>)
+            }catch(e){
+
+            }
         }
         return (
             <div className="hero-banner">
@@ -62,8 +68,8 @@ class HeroBanner extends Component {
         )
     }
 
-    setViewState() {
-        //function to handle clicks on the hero banner
+    setViewState(target) {
+        this.setState({currentSlide:target+1})
     }
 
     render() {
