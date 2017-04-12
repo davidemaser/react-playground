@@ -1,5 +1,5 @@
 /**
- * Created by DAVIM on 05/04/2017.
+ * Created by David Maser on 05/04/2017.
  */
 import React, { Component } from 'react';
 import Column from '../Components/Column'

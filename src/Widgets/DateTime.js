@@ -1,5 +1,5 @@
 /**
- * Created by DAVIM on 06/04/2017.
+ * Created by David Maser on 06/04/2017.
  */
 import React, {Component} from 'react';
 

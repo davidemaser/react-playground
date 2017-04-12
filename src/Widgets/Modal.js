@@ -1,5 +1,5 @@
 /**
- * Created by DAVIM on 12/04/2017.
+ * Created by David Maser on 12/04/2017.
  */
 import React, {Component} from 'react';
 import './Stylesheets/Modal.css';
