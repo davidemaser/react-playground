@@ -16,7 +16,8 @@ export default class App extends Component {
     constructor(props){
         super(props);
         this.state= {
-            appView: 'gutter-hidden'
+            appView: 'gutter-hidden',
+            defaultLink:'index.html' //set a default jump link for the modal
         };
     }
 
@@ -47,7 +48,7 @@ export default class App extends Component {
                     <Provinces country="CA"/>
                     <Prefooter />
                     <Footer />
-                    <Modal format="full" title="This is the title" body="This would be the body of the modal"/>
+                    <Modal format="full" title="This is the title" body="This would be the body of the modal" link={this.state.defaultLink}/>
                     <DynamicForm form="login"/>
                     <DynamicForm form="general"/>
                     <DateTime view="Time"/>

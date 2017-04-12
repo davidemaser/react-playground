@@ -15,7 +15,8 @@ export default class Modal extends Component{
             action:null,
             preventActions:true,
             title:this.props.title,
-            body:this.props.body
+            body:this.props.body,
+            link:this.props.link
         };
         this.showHideModal = this.changeModalVisibility.bind(this);
         this.getResponse = this.changeModalResponse.bind(this);
@@ -47,6 +48,9 @@ export default class Modal extends Component{
     changeModalResponse(res){
         this.setState({response:res});
         this.changeModalVisibility();
+        if(this.state.link !== undefined && this.state.link !== '' && res === true){
+            window.location.href = this.state.link;
+        }
         console.log(res,this.state.response)
     }
 
