@@ -20,6 +20,18 @@ export default class HeroBanner extends Component {
     buildHero() {
         const data = this.state.dataSource;
         let dataDump = [];
+        const globals = {
+            object:{
+                width:parseInt(window.innerWidth,10),
+                height:parseInt(window.innerHeight,10),
+                units:parseInt(data.length,10),
+                constrain:parseInt(window.innerWidth,10)*parseInt(data.length,10)
+            },
+            styles:{
+                containerWidth: {width: parseInt(window.innerWidth,10)*parseInt(data.length,10)},
+                nodeWidth:{width: parseInt(window.innerWidth,10)}
+            }
+        };
         for (let d in data) {
             try {
                 let unitParams = {
@@ -30,25 +42,25 @@ export default class HeroBanner extends Component {
                     buttonURL: data[d].button.url,
                     buttonLabel: data[d].button.label[this.state.language]
                 };
-                dataDump.push(<div data-instace={`hero-elem` + d} title="" className="hero-layout" key={d}>
-                    <div className="hero-background" style={unitParams.bgImage}>
-                        <div className="hero-container"><h1 className="hero-headline"
-                                                            style={unitParams.titleColor}
-                                                            dangerouslySetInnerHTML={{__html: unitParams.titleText}}>{null}</h1>
-                            <p
-                                className="hero-subtitle"
-                                dangerouslySetInnerHTML={{__html: unitParams.subTitleText}}>{null}</p><a
-                                href={unitParams.buttonURL}
-                                className="hero-action-button">{unitParams.buttonLabel}</a>
+                dataDump.push(
+                    data[d].active === true ?
+                        <div onClick={this.userHasClicked.bind(null, unitParams.buttonURL)} data-click={unitParams.buttonURL} data-instace={`hero-elem` + d} style={globals.styles.nodeWidth} className="hero-layout" key={d}>
+                            <div className="hero-background" style={unitParams.bgImage}>
+                                <div className="hero-container">
+                                    {data[d].title.showTitle === true ? <h1 className="hero-headline" style={unitParams.titleColor} dangerouslySetInnerHTML={{__html: unitParams.titleText}}>{null}</h1> : ''}
+                                    {data[d].text.showSubTitle === true ? <p className="hero-subtitle" dangerouslySetInnerHTML={{__html: unitParams.subTitleText}}>{null}</p>:''}
+                                    <a href={unitParams.buttonURL} className="hero-action-button">{unitParams.buttonLabel}</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>)
+                    :''
+                )
             }catch(e){
 
             }
         }
         return (
-            <div className="hero-banner">
+            <div className="hero-banner" style={globals.styles.containerWidth}>
                 {dataDump}
             </div>
         )
@@ -56,6 +68,10 @@ export default class HeroBanner extends Component {
 
     setViewState(target) {
         this.setState({currentSlide:target+1})
+    }
+
+    userHasClicked(target) {
+        console.log(target)
     }
 
     render() {

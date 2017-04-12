@@ -1,3 +1,7 @@
+section.hero-wrapper{
+    overflow: hidden;
+    position:relative;
+}
 .hero-banner .hero-layout {
     display: block;
     width: 100%;
@@ -8,4 +12,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+}
+
+.hero-nav{
+    position: absolute;
+    height: 100%;
+    width: 50px;
+}
+
+.hero-nav.left {
+    top: 0;
+    left: 0;
+}
+.hero-nav.right {
+    top: 0;
+    right: 0;
 }

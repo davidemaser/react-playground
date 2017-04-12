@@ -9,8 +9,8 @@ export default class GetJSON extends Component{
     render() {
         return (
             <Request
-                url='https://davidemaser.github.io/data/temp.json'
-                method='get'
+                url={this.props.url}
+                method={this.props.method}
                 accept='application/json'
                 verbose={false}
                 timeout = {5000}
