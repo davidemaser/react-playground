@@ -1,5 +1,5 @@
 /**
- * Created by DAVIM on 12/04/2017.
+ * Created by David Maser on 12/04/2017.
  */
 import React, {Component} from 'react';
 import Request from 'react-http-request';
@@ -13,6 +13,7 @@ export default class GetJSON extends Component{
                 method='get'
                 accept='application/json'
                 verbose={false}
+                timeout = {5000}
             >
                 {
                     ({error, result, loading}) => {

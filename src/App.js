@@ -51,7 +51,7 @@ export default class App extends Component {
                     <DynamicForm form="login"/>
                     <DynamicForm form="general"/>
                     <DateTime view="Time"/>
-                    <GetJSON language="en" target="hero"/>
+
                 </section>
             </section>
         );
