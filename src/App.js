@@ -41,7 +41,7 @@ class App extends Component {
                         Call the following view into scope <strong>{this.props.initialView}</strong>
                     </p>
                     <Body />
-                    <HeroBanner/>
+                    <HeroBanner language="en"/>
                     <Form view="default"/>
                     <Provinces country="CA"/>
                     <Prefooter />
