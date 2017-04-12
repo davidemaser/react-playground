@@ -9,7 +9,6 @@ import Form from "./Components/Form";
 import Provinces from "./Widgets/ProvinceList";
 import DateTime from "./Widgets/DateTime";
 import DynamicForm from "./Components/DynamicForm";
-import HeroBanner from "./Widgets/HeroBanner";
 import Modal from "./Widgets/Modal";
 import GetJSON from "./Components/GetJSON";
 
