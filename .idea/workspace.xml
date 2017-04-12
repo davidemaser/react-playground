@@ -4,9 +4,6 @@
     <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/GetJSON.js" afterPath="$PROJECT_DIR$/src/Components/GetJSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/HeroBanner.js" afterPath="$PROJECT_DIR$/src/Widgets/HeroBanner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/Stylesheets/HeroBanner.css" afterPath="$PROJECT_DIR$/src/Widgets/Stylesheets/HeroBanner.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,6 +21,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HeroBanner.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Widgets/HeroBanner.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,19 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AjaxLoader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/AjaxLoader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#49#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GetJSON.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/GetJSON.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,10 +103,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+            <state relative-caret-position="42">
+              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#340#387#0" expanded="true" />
+                <element signature="e#522#558#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -256,9 +253,9 @@
         <option value="$PROJECT_DIR$/src/Data/Components/GetJSON.js" />
         <option value="$PROJECT_DIR$/src/Components/Body.js" />
         <option value="$PROJECT_DIR$/src/Components/GetJSON.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Widgets/Stylesheets/HeroBanner.css" />
         <option value="$PROJECT_DIR$/src/Widgets/HeroBanner.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -587,14 +584,7 @@
       <workItem from="1491926441285" duration="1134000" />
       <workItem from="1491932338823" duration="19197000" />
       <workItem from="1492008080412" duration="8371000" />
-      <workItem from="1492019803092" duration="11560000" />
-    </task>
-    <task id="LOCAL-00010" summary="Add DateTime component">
-      <created>1491488589260</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1491488589260</updated>
+      <workItem from="1492019803092" duration="11875000" />
     </task>
     <task id="LOCAL-00011" summary="Add cucumber and build">
       <created>1491488797591</created>
@@ -932,11 +922,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492026091211</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Extend hero banner objects JS">
+      <created>1492031670560</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1492031670560</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109219000" />
+    <option name="totallyTimeSpent" value="109534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,7 +994,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Minor ref" />
     <MESSAGE value="CSS animate gutter" />
     <MESSAGE value="Fixes and tweaks" />
     <MESSAGE value="Burger menu svg clip" />
@@ -1022,7 +1018,8 @@
     <MESSAGE value="Add getJson feature and link Hero Banner to it" />
     <MESSAGE value="Refactor Request object" />
     <MESSAGE value="Minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes" />
+    <MESSAGE value="Extend hero banner objects JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extend hero banner objects JS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1262,6 +1259,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,14 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,12 +1423,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+        <state relative-caret-position="42">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#340#387#0" expanded="true" />
+            <element signature="e#522#558#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,10 +5,10 @@ import Prefooter from './Components/PreFooter';
 import Gutter from "./Components/Gutter";
 import logo from './logo.svg';
 import './App.css';
-import Form from "./Components/Form";
+import Form from "./Components/Form"; //static form loaded from internal array
 import Provinces from "./Widgets/ProvinceList";
 import DateTime from "./Widgets/DateTime";
-import DynamicForm from "./Components/DynamicForm";
+import DynamicForm from "./Components/DynamicForm"; //dynamic form loaded from a JSON file
 import Modal from "./Widgets/Modal";
 import GetJSON from "./Components/GetJSON";
 
