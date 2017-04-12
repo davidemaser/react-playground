@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import './Stylesheets/Modal.css';
 
-class Modal extends Component{
+export default class Modal extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -54,5 +54,3 @@ class Modal extends Component{
         return(<section>{this.buildModal()}</section>);
     }
 }
-
-export default Modal;

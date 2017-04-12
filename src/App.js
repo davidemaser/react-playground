@@ -8,11 +8,11 @@ import './App.css';
 import Form from "./Components/Form";
 import Provinces from "./Widgets/ProvinceList";
 import DateTime from "./Widgets/DateTime";
-import UserManager from "./Components/UserEntry";
+import DynamicForm from "./Components/DynamicForm";
 import HeroBanner from "./Widgets/HeroBanner";
 import Modal from "./Widgets/Modal";
 
-class App extends Component {
+export default class App extends Component {
     constructor(props){
         super(props);
         this.state= {
@@ -48,13 +48,11 @@ class App extends Component {
                     <Prefooter />
                     <Footer />
                     <Modal format="full" title="This is the title" body="This would be the body of the modal"/>
-                    <UserManager form="login"/>
-                    <UserManager form="general"/>
+                    <DynamicForm form="login"/>
+                    <DynamicForm form="general"/>
                     <DateTime view="Time"/>
                 </section>
             </section>
         );
     }
 }
-
-export default App;

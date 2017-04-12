@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import Column from '../Components/Column'
 import './Stylesheets/PreFooterStyles.css';
 
-class PreFooterSection extends Component {
+export default class PreFooterSection extends Component {
     render() {
         return (
             <section className="prefooter">
@@ -14,5 +14,3 @@ class PreFooterSection extends Component {
         );
     }
 }
-
-export default PreFooterSection;

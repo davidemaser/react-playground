@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import JsonList from '../Data/Provinces/provinces.json';
 
-class Provinces extends Component {
+export default class Provinces extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -48,5 +48,3 @@ class Provinces extends Component {
         )
     }
 }
-
-export default Provinces;

@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 import Column from '../Components/Column'
 import './Stylesheets/FooterStyles.css';
 
-class FooterSection extends Component {
+export default class FooterSection extends Component {
     constructor(props) {
         super(props);
         this.handleDateUpdate = this.handleDateUpdate.bind(this);
@@ -23,5 +23,3 @@ class FooterSection extends Component {
         );
     }
 }
-
-export default FooterSection;

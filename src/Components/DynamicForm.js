@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import Json from '../Data/Forms/default.json';
 
-class UserManager extends Component{
+export default class DynamicForm extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -89,5 +89,3 @@ class UserManager extends Component{
 
     }
 }
-
-export default UserManager;

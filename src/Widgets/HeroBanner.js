@@ -6,7 +6,7 @@ import React, {Component} from 'react';
 import Json from '../Data/HeroBanner/Data/banner.json';
 import './Stylesheets/HeroBanner.css';
 
-class HeroBanner extends Component {
+export default class HeroBanner extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -76,5 +76,3 @@ class HeroBanner extends Component {
         return (<section className="hero-wrapper" onClick={this.triggerViewState}>{this.buildHero()}</section>)
     }
 }
-
-export default HeroBanner;

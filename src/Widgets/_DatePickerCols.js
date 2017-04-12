@@ -3,7 +3,7 @@
  */
 import React, {Component} from 'react';
 
-class DatePickerCols extends Component{
+export default class DatePickerCols extends Component{
     render() {
         /**
          * @todo need to wrap my head around the math to get the offset working properly
@@ -23,5 +23,3 @@ class DatePickerCols extends Component{
         )
     }
 }
-
-export default DatePickerCols;
