@@ -53,6 +53,7 @@ class App extends Component {
                     <DynamicForm form="general"/>
                     <DateTime view="Time"/>
                     <GetJSON url="https://davidemaser.github.io/data/temp.json" method="get" language="en" target="hero"/>
+                    <VideoComponent/>
                 </section>
             </section>
         );

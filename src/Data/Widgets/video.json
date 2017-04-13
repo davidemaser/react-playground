@@ -1,21 +1,24 @@
 {
   "media":[
     {
-      "src":"url",
-      "type":"'video/mp4;codecs=\"avc1.42E01E, mp4a.40.2\"",
+      "src":"https://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4",
+      "type":"video/mp4;codecs=\"avc1.42E01E, mp4a.40.2\"",
       "controls":true,
+      "autoplay":true,
+      "loop":true,
       "dimensions":{
         "width":"640",
         "height":"480"
       },
       "clip":{
+        "enable":true,
         "start":10,
         "end":50
       },
       "poster":"image.png",
       "track":{
-        "src":"",
-        "label":"",
+        "src":"https://www.html5rocks.com/en/tutorials/video/basics/devstories-en.vtt",
+        "label":"English subtitles",
         "kind":"subtitle",
         "lang":"en",
         "default":true
