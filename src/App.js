@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component,PropTypes} from 'react';
 import Body from './Components/Body';
 import Footer from './Components/Footer';
 import Prefooter from './Components/PreFooter';
@@ -47,7 +47,7 @@ class App extends Component {
                     <Provinces country="CA"/>
                     <Prefooter />
                     <Footer />
-                    <Modal format="full" title="This is the title" body="This would be the body of the modal" link={this.state.defaultLink}/>
+                    <Modal format="full" title="This is the title" body="This would be the body of the modal" link={this.state.defaultLink} cta="Click me"/>
                     <DynamicForm form="login"/>
                     <DynamicForm form="general"/>
                     <DateTime view="Time"/>
@@ -57,5 +57,12 @@ class App extends Component {
         );
     }
 }
-
+App.PropTypes = {
+    appView:PropTypes.string,
+    defaultLink:PropTypes.string
+};
+App.defaultProps = {
+    appView:'gutter-hidden',
+    defaultLink:'index.html'
+};
 export default App;

@@ -3,7 +3,15 @@
  */
 import React, {Component} from 'react';
 import './Stylesheets/Modal.css';
-
+/**
+ * the modal class creates a two tier object on the page
+ * The modal is created on the page and by default it is
+ * hidden. A button is created at the point where the
+ * class is called. The button onClick event opens the
+ * modal view with the information passed in the props
+ * The modal has it's own button components that displays
+ * confirm and refuse buttons
+ */
 class Modal extends Component{
 
     constructor(props){
@@ -16,20 +24,29 @@ class Modal extends Component{
             visible:false,
             response:false,
             format:'full',
-            buttons:true,
+            buttons:{
+                display:true,
+                type:'YES/NO' // Can be YES or YES/NO
+            },
             action:null,
             preventActions:true,
             title:this.props.title,
             body:this.props.body,
-            link:this.props.link
+            link:this.props.link,
+            cta:this.props.cta
         };
         this.showHideModal = this.changeModalVisibility.bind(this);
         this.getResponse = this.changeModalResponse.bind(this);
     }
 
     buildModal(){
-        let modalButtons = this.state.buttons === true ? <div className="modal-buttons"><button className="modal-confirm" onClick={() => this.getResponse(true)}>Ok</button><button className="modal-reject" onClick={() => this.getResponse(false)}>No</button></div> : null;
-        let modalContent = <div className="modal-content"><div className="modal-title">{this.state.title}</div><div className="modal-body">{this.state.body}</div>{modalButtons}</div>;
+        let modalButtons = <div className="modal-buttons">
+                <button className="modal-confirm" onClick={() => this.getResponse(true)}>Ok</button>
+            {this.state.buttons.type === 'YES/NO' ?
+                <button className="modal-reject" onClick={() => this.getResponse(false)}>No</button>
+            : '' }
+            </div>;
+        let modalContent = <div className="modal-content"><div className="modal-title">{this.state.title}</div><div className="modal-body">{this.state.body}</div>{this.state.buttons.display === true ? modalButtons : ''}</div>;
         let modalDisplay = this.state.format === 'full' ? <div className="modal-full">{modalContent}</div> : <div className="modal-compact">{modalContent}</div>;
         return(
             <div>
@@ -40,7 +57,7 @@ class Modal extends Component{
     }
 
     buildCta(){
-        let modalCta = <button onClick={this.showHideModal}>Click me</button>;
+        let modalCta = <button onClick={this.showHideModal}>{this.state.cta}</button>;
         return(
             modalCta
         )
