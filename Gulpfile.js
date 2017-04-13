@@ -19,7 +19,7 @@ gulp.task('sass', () => {
     // Find all `.scss` files from the `stylesheets/` folder
         .src(input)
         // Run Sass on those files
-        .pipe(sass())
+        .pipe(sass(sassOptions))
         // Write the resulting CSS in the output folder
         .pipe(gulp.dest(output));
 });
