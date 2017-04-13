@@ -4,7 +4,7 @@
 let gulp = require('gulp');
 let sass = require('gulp-sass');
 let jsdoc = require('gulp-jsdoc3');
-var git = require('gulp-git');
+let git = require('gulp-git');
 
 let input = './stylesheets/**/*.scss';
 let output = './public/css';

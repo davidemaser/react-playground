@@ -6,7 +6,7 @@ import React, {Component} from 'react';
  * Create a static form from a JSON formatted array.
  * @param {object} props - React props object.
  */
-export default class Form extends Component {
+class Form extends Component {
 
     constructor(props) {
         super(props);
@@ -53,3 +53,5 @@ export default class Form extends Component {
         )
     }
 }
+
+export default Form;

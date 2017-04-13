@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 import Request from 'react-http-request';
 import HeroBanner from "../Widgets/HeroBanner";
 
-export default class GetJSON extends Component{
+class GetJSON extends Component{
     render() {
         return (
             <Request
@@ -31,3 +31,5 @@ export default class GetJSON extends Component{
         );
     }
 }
+
+export default GetJSON;

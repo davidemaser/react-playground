@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import './Stylesheets/Modal.css';
 
-export default class Modal extends Component{
+class Modal extends Component{
 
     constructor(props){
         super(props);
@@ -63,3 +63,5 @@ export default class Modal extends Component{
         return(<section>{this.buildModal()}</section>);
     }
 }
+
+export default Modal;

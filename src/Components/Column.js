@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import DatePicker from "../Widgets/DatePicker";
 
-export default class Column extends Component {
+class Column extends Component {
     render() {
         let myObject = [
             {
@@ -28,3 +28,5 @@ export default class Column extends Component {
         );
     }
 }
+
+export default Column;

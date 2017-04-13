@@ -12,7 +12,7 @@ import DynamicForm from "./Components/DynamicForm"; //dynamic form loaded from a
 import Modal from "./Widgets/Modal";
 import GetJSON from "./Components/GetJSON";
 
-export default class App extends Component {
+class App extends Component {
     constructor(props){
         super(props);
         this.state= {
@@ -57,3 +57,5 @@ export default class App extends Component {
         );
     }
 }
+
+export default App;

@@ -4,10 +4,12 @@
 import React, {Component} from 'react';
 import AjaxLoader from './AjaxLoader';
 
-export default class Body extends Component {
+class Body extends Component {
     render(){
         return (
             <AjaxLoader datasource="http://www.reddit.com/r/reactjs" log="false"/>
         )
     }
 }
+
+export default Body;

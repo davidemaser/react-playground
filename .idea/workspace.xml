@@ -1,57 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/global.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/quicksearch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/docstrap.lib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/fulltext-search-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/fulltext-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/lunr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/prettify/Apache-License-2.0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/prettify/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/prettify/lang-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/sunlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/scripts/toc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/darkstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/prettify-tomorrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.cerulean.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.cosmo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.cyborg.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.darkly.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.darkstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.dibs-bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.flatly.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.journal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.lumen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.paper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.readable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.sandstone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.simplex.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.slate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.spacelab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.superhero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.united.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/site.yeti.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/sunlight.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/gen/styles/sunlight.default.css" />
+    <list default="true" id="230edcce-150b-4862-8829-e3bf3031194c" name="Default" comment="Add documentation">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulpfile.js" afterPath="$PROJECT_DIR$/Gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/gen/classes.list.html" afterPath="$PROJECT_DIR$/docs/gen/classes.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/gen/global.html" afterPath="$PROJECT_DIR$/docs/gen/global.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/gen/index.html" afterPath="$PROJECT_DIR$/docs/gen/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/gen/quicksearch.html" afterPath="$PROJECT_DIR$/docs/gen/quicksearch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/AjaxLoader.js" afterPath="$PROJECT_DIR$/src/Components/AjaxLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Body.js" afterPath="$PROJECT_DIR$/src/Components/Body.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Column.js" afterPath="$PROJECT_DIR$/src/Components/Column.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/DynamicForm.js" afterPath="$PROJECT_DIR$/src/Components/DynamicForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Footer.js" afterPath="$PROJECT_DIR$/src/Components/Footer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Form.js" afterPath="$PROJECT_DIR$/src/Components/Form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/GetJSON.js" afterPath="$PROJECT_DIR$/src/Components/GetJSON.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Gutter.js" afterPath="$PROJECT_DIR$/src/Components/Gutter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/PreFooter.js" afterPath="$PROJECT_DIR$/src/Components/PreFooter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/DatePicker.js" afterPath="$PROJECT_DIR$/src/Widgets/DatePicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/DateTime.js" afterPath="$PROJECT_DIR$/src/Widgets/DateTime.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/HeroBanner.js" afterPath="$PROJECT_DIR$/src/Widgets/HeroBanner.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/Modal.js" afterPath="$PROJECT_DIR$/src/Widgets/Modal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/ProvinceList.js" afterPath="$PROJECT_DIR$/src/Widgets/ProvinceList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" afterPath="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Widgets/_DatePickerRows.js" afterPath="$PROJECT_DIR$/src/Widgets/_DatePickerRows.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,74 +45,18 @@
       <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeroBanner.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Widgets/HeroBanner.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#49#88#0" expanded="true" />
-                <marker date="1492092692291" expanded="true" signature="2957:2977" ph="..." />
-                <marker date="1492092692291" expanded="true" signature="2977:3628" ph="..." />
-                <marker date="1492092692291" expanded="true" signature="3042:3593" ph="..." />
-                <marker date="1492092692291" expanded="true" signature="3146:3243" ph="..." />
-                <marker date="1492092692291" expanded="true" signature="3152:3175" ph="..." />
-                <marker date="1492092692291" expanded="true" signature="3328:3423" ph="..." />
-                <marker date="1492092692291" expanded="true" signature="3468:3554" ph="..." />
-                <marker date="1492092692291" expanded="true" signature="3847:3887" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeroBanner.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Widgets/Stylesheets/HeroBanner.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicForm.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/DynamicForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#49#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banner.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Data/HeroBanner/banner.json">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateTime.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Widgets/DateTime.js">
+      <file leaf-file-name="Gutter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="504">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -147,63 +64,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gulpfile.js">
+      <file leaf-file-name="PreFooter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/PreFooter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/gen/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <marker date="1492092763929" expanded="true" signature="3280:3373" ph="..." />
-                <marker date="1492092763929" expanded="true" signature="3280:3383" ph="..." />
-                <marker date="1492092763929" expanded="true" signature="3564:5011" ph="..." />
-                <marker date="1492092763929" expanded="true" signature="3581:4999" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="3619:3712" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="3810:4375" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="3983:4092" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="4098:4240" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="4256:4372" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="4404:4473" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="4499:4528" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="4550:4794" ph="{&quot;selectors&quot;: &quot;##toc-content h1,##toc-content h2,##toc-content h3,##toc-content h4&quot;...}" />
-                <marker date="1492092763929" expanded="true" signature="4600:4660" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="4926:4993" ph="{...}" />
-                <marker date="1492092763929" expanded="true" signature="5116:5217" ph="..." />
-                <marker date="1492092763929" expanded="true" signature="5155:5202" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Widgets/Modal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="99" lean-forward="false" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
+            <state relative-caret-position="315">
+              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#49#88#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProvinceList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Widgets/ProvinceList.js">
+      <file leaf-file-name="module.exports.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/gen/module.exports.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="230">
+              <caret line="760" column="4" lean-forward="true" selection-start-line="760" selection-start-column="4" selection-end-line="760" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetJSON.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/GetJSON.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AjaxLoader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/AjaxLoader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Body.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Body.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Column.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Column.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -225,7 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this.setSta</find>
       <find>this.setStat</find>
       <find>this.setState</find>
       <find>parse</find>
@@ -251,10 +179,11 @@
       <find>Created by DAVIM</find>
       <find>style-</find>
       <find>style</find>
-      <find>style=</find>
       <find>globalObject</find>
       <find>,2)</find>
       <find>parseInt</find>
+      <find>style=</find>
+      <find>export default</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;tag&quot;</replace>
@@ -299,27 +228,27 @@
         <option value="$PROJECT_DIR$/src/Components/Stylesheets/GutterStyles.css" />
         <option value="$PROJECT_DIR$/src/Widgets/Stylesheets/Modal.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/AjaxLoader.js" />
-        <option value="$PROJECT_DIR$/src/Components/Column.js" />
-        <option value="$PROJECT_DIR$/src/Components/Footer.js" />
-        <option value="$PROJECT_DIR$/src/Components/Gutter.js" />
-        <option value="$PROJECT_DIR$/src/Components/PreFooter.js" />
-        <option value="$PROJECT_DIR$/src/Widgets/DatePicker.js" />
-        <option value="$PROJECT_DIR$/src/Widgets/DateTime.js" />
-        <option value="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" />
-        <option value="$PROJECT_DIR$/src/Widgets/_DatePickerRows.js" />
         <option value="$PROJECT_DIR$/src/Data/Components/GetJSON.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body.js" />
         <option value="$PROJECT_DIR$/src/Widgets/Stylesheets/HeroBanner.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/Widgets/DateTime.js" />
         <option value="$PROJECT_DIR$/src/Widgets/HeroBanner.js" />
-        <option value="$PROJECT_DIR$/src/Components/GetJSON.js" />
+        <option value="$PROJECT_DIR$/src/Components/Form.js" />
+        <option value="$PROJECT_DIR$/src/Components/DynamicForm.js" />
         <option value="$PROJECT_DIR$/src/Widgets/Modal.js" />
         <option value="$PROJECT_DIR$/src/Widgets/ProvinceList.js" />
-        <option value="$PROJECT_DIR$/src/Components/DynamicForm.js" />
-        <option value="$PROJECT_DIR$/src/Components/Form.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Widgets/DatePicker.js" />
+        <option value="$PROJECT_DIR$/src/Widgets/_DatePickerRows.js" />
+        <option value="$PROJECT_DIR$/src/Widgets/_DatePickerCols.js" />
+        <option value="$PROJECT_DIR$/src/Components/AjaxLoader.js" />
+        <option value="$PROJECT_DIR$/src/Components/Body.js" />
+        <option value="$PROJECT_DIR$/src/Components/Column.js" />
+        <option value="$PROJECT_DIR$/src/Components/Footer.js" />
+        <option value="$PROJECT_DIR$/src/Components/GetJSON.js" />
+        <option value="$PROJECT_DIR$/src/Components/Gutter.js" />
+        <option value="$PROJECT_DIR$/src/Components/PreFooter.js" />
       </list>
     </option>
   </component>
@@ -349,8 +278,26 @@
             <task-name>watch</task-name>
           </GulpTaskState>
           <GulpTaskState>
+            <task-name>add</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>commit</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>push</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="add" />
+              <dependency value="commit" />
+              <dependency value="push" />
+            </dependencies>
+            <task-name>GIT</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
             <dependencies>
               <dependency value="sass" />
+              <dependency value="GIT" />
               <dependency value="watch" />
             </dependencies>
             <task-name>default</task-name>
@@ -441,7 +388,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Widgets" />
+              <option name="myItemId" value="Components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,11 +402,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
+              <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,7 +418,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/DEV/accessorywall" />
+    <property name="last_opened_file_path" value="$USER_HOME$/DEV/heroIO" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -508,31 +455,11 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="false" name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -544,6 +471,39 @@
       <gulpfile>$PROJECT_DIR$/Gulpfile.js</gulpfile>
       <tasks>
         <task>doc</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GIT" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/Gulpfile.js</gulpfile>
+      <tasks>
+        <task>GIT</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="add-commit" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/Gulpfile.js</gulpfile>
+      <tasks>
+        <task>add-commit</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="commit" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/Gulpfile.js</gulpfile>
+      <tasks>
+        <task>commit</task>
       </tasks>
       <arguments />
       <envs />
@@ -665,18 +625,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="npm.build" />
-      <item index="1" class="java.lang.String" itemvalue="npm.start" />
-      <item index="2" class="java.lang.String" itemvalue="npm.test" />
-      <item index="3" class="java.lang.String" itemvalue="Gulp.js.doc" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="npm.start" />
+      <item index="1" class="java.lang.String" itemvalue="Gulp.js.doc" />
+      <item index="2" class="java.lang.String" itemvalue="Gulp.js.GIT" />
+      <item index="3" class="java.lang.String" itemvalue="Gulp.js.add-commit" />
+      <item index="4" class="java.lang.String" itemvalue="Gulp.js.commit" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Gulp.js.doc" />
         <item index="1" class="java.lang.String" itemvalue="npm.start" />
-        <item index="2" class="java.lang.String" itemvalue="npm.build" />
-        <item index="3" class="java.lang.String" itemvalue="npm.test" />
+        <item index="2" class="java.lang.String" itemvalue="Gulp.js.commit" />
+        <item index="3" class="java.lang.String" itemvalue="Gulp.js.GIT" />
+        <item index="4" class="java.lang.String" itemvalue="Gulp.js.add-commit" />
       </list>
     </recent_temporary>
   </component>
@@ -703,14 +665,7 @@
       <workItem from="1491926441285" duration="1134000" />
       <workItem from="1491932338823" duration="19197000" />
       <workItem from="1492008080412" duration="8371000" />
-      <workItem from="1492019803092" duration="15787000" />
-    </task>
-    <task id="LOCAL-00012" summary="Add base cucumber feature dir">
-      <created>1491489373956</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1491489373956</updated>
+      <workItem from="1492019803092" duration="20540000" />
     </task>
     <task id="LOCAL-00013" summary="Add axios events">
       <created>1491494299216</created>
@@ -1048,11 +1003,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492031978680</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Add documentation">
+      <created>1492092901532</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1492092901532</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113446000" />
+    <option name="totallyTimeSpent" value="118199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1114,7 +1076,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="CSS animate gutter" />
     <MESSAGE value="Fixes and tweaks" />
     <MESSAGE value="Burger menu svg clip" />
     <MESSAGE value="Updates to current views" />
@@ -1139,22 +1100,16 @@
     <MESSAGE value="Refactor Request object" />
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Extend hero banner objects JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extend hero banner objects JS" />
+    <MESSAGE value="Add documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/react/lib/React.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Stylesheets/FooterStyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1315,17 +1270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-            <marker date="1491856935033" expanded="true" signature="142:234" ph="&lt;div/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/static/js/main.4bc93de4.js.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
@@ -1333,36 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="0" column="743473" lean-forward="false" selection-start-line="0" selection-start-column="743473" selection-end-line="0" selection-end-column="743473" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Column.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/PreFooter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1380,58 +1294,6 @@
         <state relative-caret-position="525">
           <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AjaxLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#49#88#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="82" lean-forward="true" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/_DatePickerCols.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/_DatePickerRows.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#49#88#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <element signature="e#340#387#0" expanded="false" />
-            <element signature="e#522#558#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1459,98 +1321,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="769" column="0" lean-forward="false" selection-start-line="769" selection-start-column="0" selection-end-line="769" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/Modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="99" lean-forward="false" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#49#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/GetJSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#49#88#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/gen/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1492092763929" expanded="true" signature="3280:3373" ph="..." />
-            <marker date="1492092763929" expanded="true" signature="3280:3383" ph="..." />
-            <marker date="1492092763929" expanded="true" signature="3564:5011" ph="..." />
-            <marker date="1492092763929" expanded="true" signature="3581:4999" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="3619:3712" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="3810:4375" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="3983:4092" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="4098:4240" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="4256:4372" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="4404:4473" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="4499:4528" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="4550:4794" ph="{&quot;selectors&quot;: &quot;##toc-content h1,##toc-content h2,##toc-content h3,##toc-content h4&quot;...}" />
-            <marker date="1492092763929" expanded="true" signature="4600:4660" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="4926:4993" ph="{...}" />
-            <marker date="1492092763929" expanded="true" signature="5116:5217" ph="..." />
-            <marker date="1492092763929" expanded="true" signature="5155:5202" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/ProvinceList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/DateTime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/DatePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1562,43 +1337,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Widgets/HeroBanner.js">
+    <entry file="file://$PROJECT_DIR$/Gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="105">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#49#88#0" expanded="true" />
-            <marker date="1492092692291" expanded="true" signature="2957:2977" ph="..." />
-            <marker date="1492092692291" expanded="true" signature="2977:3628" ph="..." />
-            <marker date="1492092692291" expanded="true" signature="3042:3593" ph="..." />
-            <marker date="1492092692291" expanded="true" signature="3146:3243" ph="..." />
-            <marker date="1492092692291" expanded="true" signature="3152:3175" ph="..." />
-            <marker date="1492092692291" expanded="true" signature="3328:3423" ph="..." />
-            <marker date="1492092692291" expanded="true" signature="3468:3554" ph="..." />
-            <marker date="1492092692291" expanded="true" signature="3847:3887" ph="..." />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
+    <entry file="file://$PROJECT_DIR$/src/Widgets/HeroBanner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="2079">
+          <caret line="99" column="26" lean-forward="false" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#49#88#0" expanded="false" />
+            <marker date="1492109184087" expanded="true" signature="2942:2962" ph="..." />
+            <marker date="1492109184087" expanded="true" signature="2962:3613" ph="..." />
+            <marker date="1492109184087" expanded="true" signature="3027:3578" ph="..." />
+            <marker date="1492109184087" expanded="true" signature="3131:3228" ph="..." />
+            <marker date="1492109184087" expanded="true" signature="3137:3160" ph="..." />
+            <marker date="1492109184087" expanded="true" signature="3313:3408" ph="..." />
+            <marker date="1492109184087" expanded="true" signature="3453:3539" ph="..." />
+            <marker date="1492109184087" expanded="true" signature="3832:3872" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/DynamicForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="803">
+          <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#49#88#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widgets/DateTime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widgets/ProvinceList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/gen/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widgets/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#49#88#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widgets/DatePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widgets/_DatePickerCols.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widgets/_DatePickerRows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AjaxLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Column.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#49#88#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GetJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Gutter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/PreFooter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/gen/module.exports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="760" column="4" lean-forward="true" selection-start-line="760" selection-start-column="4" selection-end-line="760" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

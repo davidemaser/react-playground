@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 import './Stylesheets/DatePicker.css'
 import DatePickerRows from "./_DatePickerRows";
 
-export default class DatePicker extends Component {
+class DatePicker extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -28,3 +28,5 @@ export default class DatePicker extends Component {
         );
     }
 }
+
+export default DatePicker;

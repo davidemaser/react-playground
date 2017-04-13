@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import DatePickerCols from "./_DatePickerCols";
 
-export default class DatePickerRows extends Component{
+class DatePickerRows extends Component{
     render() {
         let rows = 4;
         let rowArray = [];
@@ -18,3 +18,5 @@ export default class DatePickerRows extends Component{
         )
     }
 }
+
+export default DatePickerRows;

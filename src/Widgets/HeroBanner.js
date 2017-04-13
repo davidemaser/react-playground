@@ -10,7 +10,7 @@ import './Stylesheets/HeroBanner.css';
  * is initialised in the GetJSON class using a react
  * render component
  */
-export default class HeroBanner extends Component {
+class HeroBanner extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -96,3 +96,5 @@ export default class HeroBanner extends Component {
         return (<section className="hero-wrapper" onClick={this.triggerViewState}>{this.buildHero()}</section>)
     }
 }
+
+export default HeroBanner;

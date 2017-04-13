@@ -7,7 +7,7 @@ import Json from '../Data/Forms/default.json';
  * dynamic form object, that loads the form object definitions
  * form an external jason file.
  */
-export default class DynamicForm extends Component{
+class DynamicForm extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -97,3 +97,5 @@ export default class DynamicForm extends Component{
 
     }
 }
+
+export default DynamicForm;

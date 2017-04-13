@@ -6,7 +6,7 @@ import JsonList from '../Data/Provinces/provinces.json';
 /** class that builds a province list dropdown based on
  * a specific country passed in the props
  */
-export default class Provinces extends Component {
+class Provinces extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -50,3 +50,5 @@ export default class Provinces extends Component {
         )
     }
 }
+
+export default Provinces;

@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-export default class AjaxLoader extends Component {
+class AjaxLoader extends Component {
 
     constructor(props) {
         super(props);
@@ -41,3 +41,5 @@ export default class AjaxLoader extends Component {
         );
     }
 }
+
+export default AjaxLoader;
