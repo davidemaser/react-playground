@@ -11,6 +11,7 @@ import DateTime from "./Widgets/DateTime";
 import DynamicForm from "./Components/DynamicForm"; //dynamic form loaded from a JSON file
 import Modal from "./Widgets/Modal";
 import GetJSON from "./Components/GetJSON";
+import VideoComponent from "./Widgets/Video";
 
 class App extends Component {
     constructor(props){
