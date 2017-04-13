@@ -56,5 +56,5 @@ gulp.task('push', () => {
     });
 });
 
-gulp.task('GIT',['add','commit'/*,'push'*/]);
+gulp.task('GIT',['add','commit','push']);
 gulp.task('default', ['sass','GIT','watch']);
