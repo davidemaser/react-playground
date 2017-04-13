@@ -3,7 +3,9 @@
  */
 import React, {Component} from 'react';
 import JsonList from '../Data/Provinces/provinces.json';
-
+/** class that builds a province list dropdown based on
+ * a specific country passed in the props
+ */
 export default class Provinces extends Component {
     constructor(props){
         super(props);

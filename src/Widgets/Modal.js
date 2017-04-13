@@ -5,8 +5,13 @@ import React, {Component} from 'react';
 import './Stylesheets/Modal.css';
 
 export default class Modal extends Component{
+
     constructor(props){
         super(props);
+        /**
+         * Defines the default states of the modal. Some parameters are passed in the objects props
+         * @type {{visible: boolean, response: boolean, format: string, buttons: boolean, action: null, preventActions: boolean, title, body, link}}
+         */
         this.state = {
             visible:false,
             response:false,

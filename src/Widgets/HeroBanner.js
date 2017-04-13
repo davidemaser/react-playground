@@ -4,7 +4,12 @@
 import React, {Component} from 'react';
 import Json from '../Data/HeroBanner/banner.json';
 import './Stylesheets/HeroBanner.css';
-
+/**
+ * Create a dynamic hero banner object which loads it's data
+ * from an external JSON using the GetJSON class. The class
+ * is initialised in the GetJSON class using a react
+ * render component
+ */
 export default class HeroBanner extends Component {
     constructor(props) {
         super(props);
@@ -17,9 +22,18 @@ export default class HeroBanner extends Component {
         this.triggerViewState = this.setViewState.bind(this);
     }
 
+    /**
+     * builds the hero object layout and saves it to an array that
+     * is used by the render function.
+     * @returns {XML}
+     */
     buildHero() {
         const data = this.state.dataSource;
         let dataDump = [];
+        /**
+         * defines global objects and styles that apply to the entire hero banner object
+         * @type {{object: {width: Number, height: Number, units: Number, constrain: number}, styles: {containerWidth: {width: number}, nodeWidth: {width: Number}}}}
+         */
         const globals = {
             object:{
                 width:parseInt(window.innerWidth,10),
@@ -34,6 +48,10 @@ export default class HeroBanner extends Component {
         };
         for (let d in data) {
             try {
+                /**
+                 * Defines parameters that apply to each node of the hero banner object
+                 * @type {{bgImage: {backgroundImage: string}, titleColor: {color}, titleText, subTitleText, buttonURL, buttonLabel}}
+                 */
                 let unitParams = {
                     bgImage: {backgroundImage: 'url(' + data[d].image.url + ')'},
                     titleColor: {color: data[d].title.color},

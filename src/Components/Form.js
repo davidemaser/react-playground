@@ -2,8 +2,12 @@
  * Created by David Maser on 10/04/2017.
  */
 import React, {Component} from 'react';
-
+/**
+ * Create a static form from a JSON formatted array.
+ * @param {object} props - React props object.
+ */
 export default class Form extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -12,6 +16,10 @@ export default class Form extends Component {
     }
 
     render() {
+        /**
+         * Array object that defines each form object item.
+         * @type {object}
+         */
         let formObject = [{tag:'input',type: 'input', defaultValue: 'Placeholder', name: 'name', ID: ''},
             {
             tag:'select',

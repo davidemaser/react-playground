@@ -3,7 +3,10 @@
  */
 import React, {Component} from 'react';
 import Json from '../Data/Forms/default.json';
-
+/**
+ * dynamic form object, that loads the form object definitions
+ * form an external jason file.
+ */
 export default class DynamicForm extends Component{
     constructor(props){
         super(props);
@@ -12,7 +15,12 @@ export default class DynamicForm extends Component{
         }
     }
 
+    /**
+     * Builds the actual form object from the loaded json data
+     * @returns {Array}
+     */
     buildFormFields() {
+
         let formArray = [];
         let formFields = Json[this.state.type];
         let keyCounter = 0;
