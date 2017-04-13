@@ -37,12 +37,6 @@ gulp.task('watch', () => {
         })
 });
 
-gulp.task('push', () => {
-    git.push('origin', 'master', (err) => {
-        if (err) throw err;
-    });
-});
-
 gulp.task('add', function(){
     return gulp.src('./*')
         .pipe(git.add());
@@ -56,5 +50,11 @@ gulp.task('commit',() =>{
         }));
 });
 
-gulp.task('GIT',['add','commit','push']);
-gulp.task('default', ['sass','watch']);
+gulp.task('push', () => {
+    git.push('origin', 'master', (err) => {
+        if (err) throw err;
+    });
+});
+
+gulp.task('GIT',['add','commit'/*,'push'*/]);
+gulp.task('default', ['sass','GIT','watch']);
