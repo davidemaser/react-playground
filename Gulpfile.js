@@ -37,9 +37,13 @@ gulp.task('watch', () => {
         })
 });
 
-gulp.task('add', function(){
+gulp.task('add-commit', function(){
     return gulp.src('./*')
-        .pipe(git.add());
+        .pipe(git.add())
+        .pipe(git.commit(undefined, {
+            args: '-m "dave commit"',
+            disableMessageRequirement: true
+        }));
 });
 
 gulp.task('commit',() =>{
@@ -56,5 +60,5 @@ gulp.task('push', () => {
     });
 });
 
-gulp.task('GIT',['add','commit'/*,'push'*/]);
+gulp.task('GIT',['add-commit','commit'/*,'push'*/]);
 gulp.task('default', ['sass','GIT','watch']);
