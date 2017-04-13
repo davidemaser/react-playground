@@ -20,17 +20,18 @@ class Form extends Component {
          * Array object that defines each form object item.
          * @type {object}
          */
-        let formObject = [{tag:'input',type: 'input', defaultValue: 'Placeholder', name: 'name', ID: ''},
+        let formObject;
+        formObject = [{tag: 'input', type: 'input', defaultValue: 'Placeholder', name: 'name', ID: ''},
             {
-            tag:'select',
-            type: null,
-            defaultValue: null,
-            name: 'name',
-            ID: '',
-            options: [{label: 'label', value: 'value'}]
-        }];
+                tag: 'select',
+                type: null,
+                defaultValue: null,
+                name: 'name',
+                ID: '',
+                options: [{label: 'label', value: 'value'}]
+            }];
         let formArray = [];
-        for(let f in formObject){
+        for(let f in formObject)
             switch(formObject[f].tag) {
                 case 'input':
                     formArray.push(<input key={f} type={formObject[f].type} id={formObject[f].ID} name={formObject[f].name} placeholder={formObject[f].defaultValue} />);
@@ -45,7 +46,6 @@ class Form extends Component {
                 default:
                     return false;
             }
-        }
         return (
             <div>
                 {formArray}

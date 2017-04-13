@@ -26,16 +26,16 @@ class Provinces extends Component {
         let provinceList = [];
         let countryDefault = this.state.country || 'all'; //set default state
         let countryFilter = ['US','CA','AU']; //filter out some countries from the JSON to show only selected
-        for(let j in provinces){
+        for(let j in provinces)
             if(provinces[j].country === countryDefault || countryDefault === 'all'){
                 provinceList.push(<option key={j} value={provinces[j].short}>{provinces[j].name}</option>);
             }
-        }
-        for(let c in countries){
+
+        for(let c in countries)
             if(countryFilter.indexOf(countries[c].value) > -1){
                 countriesList.push(countries[c]);
             }
-        }
+
         return(
             <div>
                 <select defaultValue={this.props.country} name="country" onChange={this.handleCountryChange}>

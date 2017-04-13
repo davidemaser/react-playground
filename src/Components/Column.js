@@ -6,7 +6,9 @@ import DatePicker from "../Widgets/DatePicker";
 
 class Column extends Component {
     render() {
-        let myObject = [
+        let columnList;
+        let myObject;
+        myObject = [
             {
                 class: "a_class_name",
                 title: "a title name",
@@ -18,8 +20,9 @@ class Column extends Component {
                 data: "something else"
             }
         ];
-        let columnList = Object.keys(myObject).map(function (key, index) {
-            return <div key={index} className={myObject[key].class} data-attribute={myObject[key].data}>{myObject[key].title}</div>;
+        columnList = Object.keys(myObject).map((key, index) => {
+            return <div key={index} className={myObject[key].class}
+                        data-attribute={myObject[key].data}>{myObject[key].title}</div>;
         });
         return (
             <div className="footerColumn" data-count={this.props.count}>

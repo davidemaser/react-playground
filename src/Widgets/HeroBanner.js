@@ -4,6 +4,7 @@
 import React, {Component} from 'react';
 import Json from '../Data/HeroBanner/banner.json';
 import './Stylesheets/HeroBanner.css';
+
 /**
  * Create a dynamic hero banner object which loads it's data
  * from an external JSON using the GetJSON class. The class
@@ -30,10 +31,7 @@ class HeroBanner extends Component {
     buildHero() {
         const data = this.state.dataSource;
         let dataDump = [];
-        /**
-         * defines global objects and styles that apply to the entire hero banner object
-         * @type {{object: {width: Number, height: Number, units: Number, constrain: number}, styles: {containerWidth: {width: number}, nodeWidth: {width: Number}}}}
-         */
+
         const globals = {
             object:{
                 width:parseInt(window.innerWidth,10),
@@ -46,7 +44,8 @@ class HeroBanner extends Component {
                 nodeWidth:{width: parseInt(window.innerWidth,10)}
             }
         };
-        for (let d in data) {
+        for (let d in data)
+
             try {
                 /**
                  * Defines parameters that apply to each node of the hero banner object
@@ -62,7 +61,7 @@ class HeroBanner extends Component {
                 };
                 dataDump.push(
                     data[d].active === true ?
-                        <div onClick={this.userHasClicked.bind(null, unitParams.buttonURL)} data-click={unitParams.buttonURL} data-instace={`hero-elem` + d} style={globals.styles.nodeWidth} className="hero-layout" key={d}>
+                        <div onClick={HeroBanner.userHasClicked.bind(null, unitParams.buttonURL)} data-click={unitParams.buttonURL} data-instace={`hero-elem` + d} style={globals.styles.nodeWidth} className="hero-layout" key={d}>
                             <div className="hero-background" style={unitParams.bgImage}>
                                 <div className="hero-container">
                                     {data[d].title.showTitle === true ? <h1 className="hero-headline" style={unitParams.titleColor} dangerouslySetInnerHTML={{__html: unitParams.titleText}}>{null}</h1> : ''}
@@ -76,7 +75,7 @@ class HeroBanner extends Component {
             }catch(e){
 
             }
-        }
+
         return (
             <div className="hero-banner" style={globals.styles.containerWidth}>
                 {dataDump}
@@ -88,7 +87,7 @@ class HeroBanner extends Component {
         this.setState({currentSlide:target+1})
     }
 
-    userHasClicked(target) {
+    static userHasClicked(target) {
         console.log(target)
     }
 

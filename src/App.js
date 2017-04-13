@@ -21,7 +21,7 @@ class App extends Component {
         };
     }
 
-    componentWillMount() {
+    static componentWillMount() {
         window.dataDump= {}
     }
 
