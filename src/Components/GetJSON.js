@@ -13,7 +13,7 @@ class GetJSON extends Component{
                 method={this.props.method}
                 accept='application/json'
                 verbose={false}
-                timeout = {5000}
+                timeout={5000}
             >
                 {
                     ({error, result, loading}) => {

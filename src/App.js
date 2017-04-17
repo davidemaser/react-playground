@@ -12,6 +12,7 @@ import DynamicForm from "./Components/DynamicForm"; //dynamic form loaded from a
 import Modal from "./Widgets/Modal";
 import GetJSON from "./Components/GetJSON";
 import VideoComponent from "./Widgets/Video";
+import Nav from "./Components/Navigation";
 
 class App extends Component {
     constructor(props){
@@ -53,7 +54,8 @@ class App extends Component {
                     <DynamicForm form="general"/>
                     <DateTime view="Time"/>
                     <GetJSON url="https://davidemaser.github.io/data/temp.json" method="get" language="en" target="hero"/>
-                    <VideoComponent/>
+                    {/*<VideoComponent url="https://davidemaser.github.io/data/temp.json" method="get" language="en" node="hero"/>*/}
+                    <Nav url="https://davidemaser.github.io/data/temp-nav.json" method="get" language="en" node="nav"/>
                 </section>
             </section>
         );
