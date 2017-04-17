@@ -17,9 +17,9 @@ class NavGrandChildren extends Component{
             console.log('grandchild',grandChildData[c]);
             if(!Array.isArray(grandChildData[c])) {
                 grandChildArray.push(
-                    <li key={c} data-title={grandChildData[c].title[this.state.lang]}>
+                    <div className="nav-item grandchild" key={c} data-title={grandChildData[c].title[this.state.lang]}>
                         {grandChildData[c].title[this.state.lang]}
-                    </li>
+                    </div>
                 )
             }
         }
@@ -30,9 +30,9 @@ class NavGrandChildren extends Component{
 
     render(){
         return(
-            <ul>
+            <div className="nav-dropdown">
             {this.buildGrandChildren()}
-            </ul>
+            </div>
         )
     }
 }

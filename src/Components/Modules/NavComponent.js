@@ -9,21 +9,26 @@ class NavBlock extends Component{
         super(props);
         this.state={
             data:this.props.json,
-            lang:this.props.language
-        }
+            lang:this.props.language,
+            vis:false
+        };
+        this.handleStateChange = this.changeVisState.bind(this);
+    }
+
+    changeVisState(){
+        this.state.vis === true ? this.setState({vis:false}) : this.setState({vis:true});
+        this.setState({vis:true});
     }
 
     buildRawParent(){
         let dataList = this.state.data;
         let dataArray = [];
-        console.log(dataList);
         for(let d in dataList){
-
             dataArray.push(
-            <ul key={d}>
-                <a href={dataList[d].url[this.state.lang]}>{dataList[d].title[this.state.lang]}</a>
+            <div className="nav-item parent" data-visible={this.state.vis} key={d}>
+                <a onMouseOver={this.handleStateChange} onMouseOut={this.handleStateChange} href={dataList[d].url[this.state.lang]}>{dataList[d].title[this.state.lang]}</a>
                 {Array.isArray(dataList[d].child) ? <NavChildren json={dataList[d].child} lang={this.state.lang}/> : ''}
-            </ul>
+            </div>
             )
         }
         return(

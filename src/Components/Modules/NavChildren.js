@@ -18,10 +18,10 @@ class NavChildren extends Component{
             console.log('child',childData[c]);
             if(!Array.isArray(childData[c])) {
                 childArray.push(
-                    <li key={c} data-title={childData[c].title[this.state.lang]}>
+                    <div className="nav-item child" key={c} data-title={childData[c].title[this.state.lang]}>
                         {childData[c].title[this.state.lang]}
                         {Array.isArray(childData[c].child) ? <NavGrandChildren json={childData[c].child} lang={this.state.lang}/> : '' }
-                    </li>
+                    </div>
                 )
             }
         }
@@ -32,7 +32,7 @@ class NavChildren extends Component{
 
     render(){
         return(
-            <div>
+            <div className="nav-dropdown">
             {this.buildChildren()}
             </div>
         )
